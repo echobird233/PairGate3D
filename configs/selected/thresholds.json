@@ -1,0 +1,57 @@
+{
+  "candidate_count": 144,
+  "created_at_utc": "2026-10-29T15:41:43.111437+00:00",
+  "phase": "threshold",
+  "selected": {
+    "casa": {
+      "init_score": 1.0,
+      "top_candidates": [
+        "casa_local_u0.75_i1",
+        "casa_local_u0.75_i0.75"
+      ],
+      "update_score": 0.75
+    },
+    "point-rcnn": {
+      "init_score": 3.0,
+      "top_candidates": [
+        "point-rcnn_local_u0.75_i3",
+        "point-rcnn_local_u1_i2.25"
+      ],
+      "update_score": 0.75
+    },
+    "pvrcnn": {
+      "init_score": 1.35,
+      "top_candidates": [
+        "pvrcnn_local_u0.25_i1.35",
+        "pvrcnn_local_u0.75_i1.85"
+      ],
+      "update_score": 0.25
+    },
+    "second-iou": {
+      "init_score": 0.0,
+      "top_candidates": [
+        "second-iou_u0_i0",
+        "second-iou_u-1.5_i0"
+      ],
+      "update_score": 0.0
+    },
+    "virconv": {
+      "init_score": 0.0,
+      "top_candidates": [
+        "virconv_u-1_i0",
+        "virconv_u-1_i0.5"
+      ],
+      "update_score": -1.0
+    }
+  },
+  "selection_sequences": [
+    0,
+    2,
+    3,
+    4,
+    7,
+    11,
+    17,
+    20
+  ]
+}

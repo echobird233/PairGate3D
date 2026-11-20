@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite the PairGate3D paper when using this implementation."
+title: "PairGate3D: Score-Independent Geometric Gating for Online 3D Multi-Object Tracking"
+type: software
+authors:
+  - family-names: Lu
+    given-names: Chunxiang
+  - family-names: Xu
+    given-names: Huidong
+  - family-names: Zhang
+    given-names: Sixian
+version: 1.0.0
+date-released: 2026-11-20
+repository-code: "https://github.com/echobird233/PairGate3D"
+license: Apache-2.0

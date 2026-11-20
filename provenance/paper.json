@@ -1,0 +1,31 @@
+{
+  "title": "PairGate3D: Score-Independent Geometric Gating for Online 3D Multi-Object Tracking",
+  "manuscript": "PairGate3D_RICAI_Revision_V4.tex",
+  "sha256": "bb3e546ad88fb2c314fcb8dff27b78062e2b152856ef95d3582ceb27e5c6fcf3",
+  "release_date": "2026-11-20",
+  "predictor": "CA-KF",
+  "selected_motion_candidate": "m122_full",
+  "development_sequences": [
+    0,
+    2,
+    3,
+    4,
+    7,
+    11,
+    17,
+    20
+  ],
+  "held_out_sequences": [
+    1,
+    6,
+    8,
+    10,
+    12,
+    13,
+    14,
+    15,
+    16,
+    18,
+    19
+  ]
+}

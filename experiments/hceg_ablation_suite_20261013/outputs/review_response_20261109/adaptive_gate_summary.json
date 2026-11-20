@@ -1,0 +1,1432 @@
+{
+  "coefficients_tested": {
+    "alpha": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "beta": [
+      0.5,
+      1.0,
+      2.0
+    ]
+  },
+  "covariance_definition": "sigma=sqrt(trace(P_xyz + R I)/3); predicted-box scale=sqrt(length*width)",
+  "development_fixed_gate": {
+    "mean_sequence_equal_AssA": 67.81593021529787,
+    "mean_sequence_equal_HOTA": 63.77803090391615,
+    "per_detector": {
+      "casa": {
+        "AssA": 68.52538079503665,
+        "FP_FN": 2062,
+        "HOTA": 65.82695206761608,
+        "IDSW": 58
+      },
+      "point-rcnn": {
+        "AssA": 66.597353449428,
+        "FP_FN": 3036,
+        "HOTA": 61.08335775933145,
+        "IDSW": 35
+      },
+      "pvrcnn": {
+        "AssA": 68.22502803037817,
+        "FP_FN": 2891,
+        "HOTA": 62.35342572033694,
+        "IDSW": 26
+      },
+      "second-iou": {
+        "AssA": 65.87569381725481,
+        "FP_FN": 2677,
+        "HOTA": 62.142763330486396,
+        "IDSW": 72
+      },
+      "virconv": {
+        "AssA": 69.85619498439166,
+        "FP_FN": 2156,
+        "HOTA": 67.48365564180989,
+        "IDSW": 35
+      }
+    },
+    "total_FP_plus_FN": 12822,
+    "total_IDSW": 226
+  },
+  "development_sequences": [
+    0,
+    2,
+    3,
+    4,
+    7,
+    11,
+    17,
+    20
+  ],
+  "distance_rule": "clip(3.223 + alpha*sigma, 2, 6) m",
+  "holdout_rows": [
+    {
+      "AssA": 83.89554643538521,
+      "FN": 445,
+      "FP": 591,
+      "HOTA": 81.51025330585581,
+      "IDSW": 11,
+      "MOTA": 87.5044754744003,
+      "delta_AssA_vs_fixed": 0.08116732097553836,
+      "delta_HOTA_vs_fixed": 0.0428377157067672,
+      "delta_IDSW_vs_fixed": -3,
+      "detector": "casa",
+      "family": "adaptive_distance",
+      "selected_dev_setting": "adist_a0p5"
+    },
+    {
+      "AssA": 78.94337842539004,
+      "FN": 644,
+      "FP": 1041,
+      "HOTA": 74.38270773906738,
+      "IDSW": 13,
+      "MOTA": 79.73505191550304,
+      "delta_AssA_vs_fixed": -0.0020329245750474456,
+      "delta_HOTA_vs_fixed": 0.0005207847685539946,
+      "delta_IDSW_vs_fixed": 0,
+      "detector": "point-rcnn",
+      "family": "adaptive_distance",
+      "selected_dev_setting": "adist_a0p5"
+    },
+    {
+      "AssA": 80.75516649717514,
+      "FN": 614,
+      "FP": 981,
+      "HOTA": 76.6439630752187,
+      "IDSW": 24,
+      "MOTA": 80.67788518916339,
+      "delta_AssA_vs_fixed": 0.008910576906558276,
+      "delta_HOTA_vs_fixed": -0.003669649985724277,
+      "delta_IDSW_vs_fixed": -1,
+      "detector": "pvrcnn",
+      "family": "adaptive_distance",
+      "selected_dev_setting": "adist_a0p5"
+    },
+    {
+      "AssA": 79.28173979920605,
+      "FN": 1056,
+      "FP": 400,
+      "HOTA": 75.90519518443223,
+      "IDSW": 31,
+      "MOTA": 82.2532521780642,
+      "delta_AssA_vs_fixed": 0.12736681873398936,
+      "delta_HOTA_vs_fixed": 0.06276176527843802,
+      "delta_IDSW_vs_fixed": -5,
+      "detector": "second-iou",
+      "family": "adaptive_distance",
+      "selected_dev_setting": "adist_a0p5"
+    },
+    {
+      "AssA": 84.55647434177949,
+      "FN": 382,
+      "FP": 619,
+      "HOTA": 83.15466106504623,
+      "IDSW": 8,
+      "MOTA": 87.95799021362932,
+      "delta_AssA_vs_fixed": 0.06385351058644062,
+      "delta_HOTA_vs_fixed": 0.027118085445451356,
+      "delta_IDSW_vs_fixed": -2,
+      "detector": "virconv",
+      "family": "adaptive_distance",
+      "selected_dev_setting": "adist_a0p5"
+    },
+    {
+      "AssA": 83.83119614006192,
+      "FN": 446,
+      "FP": 591,
+      "HOTA": 81.4756981147202,
+      "IDSW": 13,
+      "MOTA": 87.468671679198,
+      "delta_AssA_vs_fixed": 0.01681702565224441,
+      "delta_HOTA_vs_fixed": 0.008282524571157523,
+      "delta_IDSW_vs_fixed": -1,
+      "detector": "casa",
+      "family": "adaptive_overlap",
+      "selected_dev_setting": "aover_b2p0"
+    },
+    {
+      "AssA": 78.94337842539004,
+      "FN": 644,
+      "FP": 1043,
+      "HOTA": 74.37502649365219,
+      "IDSW": 13,
+      "MOTA": 79.71118271870151,
+      "delta_AssA_vs_fixed": -0.0020329245750474456,
+      "delta_HOTA_vs_fixed": -0.007160460646645106,
+      "delta_IDSW_vs_fixed": 0,
+      "detector": "point-rcnn",
+      "family": "adaptive_overlap",
+      "selected_dev_setting": "aover_b2p0"
+    },
+    {
+      "AssA": 80.75516649717514,
+      "FN": 614,
+      "FP": 979,
+      "HOTA": 76.65194264950101,
+      "IDSW": 24,
+      "MOTA": 80.7017543859649,
+      "delta_AssA_vs_fixed": 0.008910576906558276,
+      "delta_HOTA_vs_fixed": 0.00430992429657806,
+      "delta_IDSW_vs_fixed": -1,
+      "detector": "pvrcnn",
+      "family": "adaptive_overlap",
+      "selected_dev_setting": "aover_b2p0"
+    },
+    {
+      "AssA": 79.20404476640563,
+      "FN": 1056,
+      "FP": 400,
+      "HOTA": 75.86686944979698,
+      "IDSW": 34,
+      "MOTA": 82.21744838286192,
+      "delta_AssA_vs_fixed": 0.04967178593356891,
+      "delta_HOTA_vs_fixed": 0.024436030643187223,
+      "delta_IDSW_vs_fixed": -2,
+      "detector": "second-iou",
+      "family": "adaptive_overlap",
+      "selected_dev_setting": "aover_b2p0"
+    },
+    {
+      "AssA": 84.49262083119305,
+      "FN": 382,
+      "FP": 618,
+      "HOTA": 83.12754297960078,
+      "IDSW": 10,
+      "MOTA": 87.94605561522854,
+      "delta_AssA_vs_fixed": 0.0,
+      "delta_HOTA_vs_fixed": 0.0,
+      "delta_IDSW_vs_fixed": 0,
+      "detector": "virconv",
+      "family": "adaptive_overlap",
+      "selected_dev_setting": "aover_b2p0"
+    },
+    {
+      "AssA": 83.89554643538521,
+      "FN": 445,
+      "FP": 591,
+      "HOTA": 81.51025330585581,
+      "IDSW": 11,
+      "MOTA": 87.5044754744003,
+      "delta_AssA_vs_fixed": 0.08116732097553836,
+      "delta_HOTA_vs_fixed": 0.0428377157067672,
+      "delta_IDSW_vs_fixed": -3,
+      "detector": "casa",
+      "family": "adaptive_joint",
+      "selected_dev_setting": "ajoint_a0p5_b0p5"
+    },
+    {
+      "AssA": 78.94337842539004,
+      "FN": 644,
+      "FP": 1041,
+      "HOTA": 74.38270773906738,
+      "IDSW": 13,
+      "MOTA": 79.73505191550304,
+      "delta_AssA_vs_fixed": -0.0020329245750474456,
+      "delta_HOTA_vs_fixed": 0.0005207847685539946,
+      "delta_IDSW_vs_fixed": 0,
+      "detector": "point-rcnn",
+      "family": "adaptive_joint",
+      "selected_dev_setting": "ajoint_a0p5_b0p5"
+    },
+    {
+      "AssA": 80.75516649717514,
+      "FN": 614,
+      "FP": 981,
+      "HOTA": 76.6439630752187,
+      "IDSW": 24,
+      "MOTA": 80.67788518916339,
+      "delta_AssA_vs_fixed": 0.008910576906558276,
+      "delta_HOTA_vs_fixed": -0.003669649985724277,
+      "delta_IDSW_vs_fixed": -1,
+      "detector": "pvrcnn",
+      "family": "adaptive_joint",
+      "selected_dev_setting": "ajoint_a0p5_b0p5"
+    },
+    {
+      "AssA": 79.28173979920605,
+      "FN": 1056,
+      "FP": 400,
+      "HOTA": 75.90519518443223,
+      "IDSW": 31,
+      "MOTA": 82.2532521780642,
+      "delta_AssA_vs_fixed": 0.12736681873398936,
+      "delta_HOTA_vs_fixed": 0.06276176527843802,
+      "delta_IDSW_vs_fixed": -5,
+      "detector": "second-iou",
+      "family": "adaptive_joint",
+      "selected_dev_setting": "ajoint_a0p5_b0p5"
+    },
+    {
+      "AssA": 84.55647434177949,
+      "FN": 382,
+      "FP": 619,
+      "HOTA": 83.15466106504623,
+      "IDSW": 8,
+      "MOTA": 87.95799021362932,
+      "delta_AssA_vs_fixed": 0.06385351058644062,
+      "delta_HOTA_vs_fixed": 0.027118085445451356,
+      "delta_IDSW_vs_fixed": -2,
+      "detector": "virconv",
+      "family": "adaptive_joint",
+      "selected_dev_setting": "ajoint_a0p5_b0p5"
+    }
+  ],
+  "holdout_sequences": [
+    1,
+    6,
+    8,
+    10,
+    12,
+    13,
+    14,
+    15,
+    16,
+    18,
+    19
+  ],
+  "overlap_rule": "clip(0.1782*exp(-beta*sigma/sqrt(length*width)), 0.02, 0.1782)",
+  "phase": "adaptive_calibration_and_holdout",
+  "protected_after": {
+    "legacy_snapshot": {
+      "missing_legacy_paths": {
+        "paper_v6": "paper/202608_ODE_ICRA_v6.tex"
+      },
+      "sha256": {
+        "design_spec": "dc79507da24d8f80bcd45833b035753223528682478c0e449573f63f615f0647",
+        "formal_config": "4689dbf092241b412efca7bc1b2060d9ed959cbbbe625447b9f95f6f8ab76b46",
+        "formal_weight": "320a1a69b2ef91c52b55d579039a6c8f2bf4fea61e1a751e40b6ee626e929917",
+        "hceg_logic": "2dabbdf74cebaca8289548223ad78280d67e9422f07f43b191131af89f412ea3",
+        "hceg_patch": "e8e49b2be861d635079b3407ab5037a6fdb28680ac0afc06381ad8e6402916dd",
+        "kopt4_result": "4a7e6ae6bac438223591b0560bd47c73d6db59ea95e8faa7798c2fb3ac48583e",
+        "predictor_runtime": "e18699cc2890418ce2d833754e34750778d9e643a5bbaba711ebab5769d42631",
+        "production_tracker": "8e1c7e5a4073ca054b8dbed9bdecbaa7d5a4a6d3470b279455342ca1f0a975f5"
+      }
+    },
+    "sha256": {
+      "calibration_runner": "5d042d3d85357f1d9a66c6e13427e15fb312e9b035806d0ed4f1718c164c5aa7",
+      "frozen_gate": "2dabbdf74cebaca8289548223ad78280d67e9422f07f43b191131af89f412ea3",
+      "frozen_patch": "e8e49b2be861d635079b3407ab5037a6fdb28680ac0afc06381ad8e6402916dd",
+      "gate_selection_manifest": "3282836e24029d7395ca5ad5544ea3eb95b9896e0bb0f420587c92714104ce97",
+      "motion_candidate_log": "08c61141977151aa7897ff1c1dee8ecfb203356295b03cb93b13d96a1579f17d",
+      "production_tracker": "8e1c7e5a4073ca054b8dbed9bdecbaa7d5a4a6d3470b279455342ca1f0a975f5",
+      "selection_manifest": "3294e0ff2139823d0f89ce9e0c1f6204c258348c0f89e6b7dba99d9d7a54959c"
+    }
+  },
+  "protected_before": {
+    "legacy_snapshot": {
+      "missing_legacy_paths": {
+        "paper_v6": "paper/202608_ODE_ICRA_v6.tex"
+      },
+      "sha256": {
+        "design_spec": "dc79507da24d8f80bcd45833b035753223528682478c0e449573f63f615f0647",
+        "formal_config": "4689dbf092241b412efca7bc1b2060d9ed959cbbbe625447b9f95f6f8ab76b46",
+        "formal_weight": "320a1a69b2ef91c52b55d579039a6c8f2bf4fea61e1a751e40b6ee626e929917",
+        "hceg_logic": "2dabbdf74cebaca8289548223ad78280d67e9422f07f43b191131af89f412ea3",
+        "hceg_patch": "e8e49b2be861d635079b3407ab5037a6fdb28680ac0afc06381ad8e6402916dd",
+        "kopt4_result": "4a7e6ae6bac438223591b0560bd47c73d6db59ea95e8faa7798c2fb3ac48583e",
+        "predictor_runtime": "e18699cc2890418ce2d833754e34750778d9e643a5bbaba711ebab5769d42631",
+        "production_tracker": "8e1c7e5a4073ca054b8dbed9bdecbaa7d5a4a6d3470b279455342ca1f0a975f5"
+      }
+    },
+    "sha256": {
+      "calibration_runner": "5d042d3d85357f1d9a66c6e13427e15fb312e9b035806d0ed4f1718c164c5aa7",
+      "frozen_gate": "2dabbdf74cebaca8289548223ad78280d67e9422f07f43b191131af89f412ea3",
+      "frozen_patch": "e8e49b2be861d635079b3407ab5037a6fdb28680ac0afc06381ad8e6402916dd",
+      "gate_selection_manifest": "3282836e24029d7395ca5ad5544ea3eb95b9896e0bb0f420587c92714104ce97",
+      "motion_candidate_log": "08c61141977151aa7897ff1c1dee8ecfb203356295b03cb93b13d96a1579f17d",
+      "production_tracker": "8e1c7e5a4073ca054b8dbed9bdecbaa7d5a4a6d3470b279455342ca1f0a975f5",
+      "selection_manifest": "3294e0ff2139823d0f89ce9e0c1f6204c258348c0f89e6b7dba99d9d7a54959c"
+    }
+  },
+  "selected_by_family": {
+    "adaptive_distance": {
+      "guard_passed_any": true,
+      "ranking": [
+        {
+          "adaptive": [
+            0.5,
+            0.0
+          ],
+          "development_metrics": {
+            "mean_sequence_equal_AssA": 67.82288872641944,
+            "mean_sequence_equal_HOTA": 63.774550585695465,
+            "per_detector": {
+              "casa": {
+                "AssA": 68.6056950072569,
+                "FP_FN": 2061,
+                "HOTA": 65.8667083176797,
+                "IDSW": 55
+              },
+              "point-rcnn": {
+                "AssA": 66.58786148111152,
+                "FP_FN": 3031,
+                "HOTA": 61.09485128435385,
+                "IDSW": 34
+              },
+              "pvrcnn": {
+                "AssA": 68.22355635715763,
+                "FP_FN": 2897,
+                "HOTA": 62.30413005679229,
+                "IDSW": 26
+              },
+              "second-iou": {
+                "AssA": 65.84113580217947,
+                "FP_FN": 2679,
+                "HOTA": 62.12244623305661,
+                "IDSW": 75
+              },
+              "virconv": {
+                "AssA": 69.85619498439166,
+                "FP_FN": 2155,
+                "HOTA": 67.48461703659491,
+                "IDSW": 35
+              }
+            },
+            "total_FP_plus_FN": 12823,
+            "total_IDSW": 225
+          },
+          "guard_pass": true,
+          "name": "adist_a0p5",
+          "parameters": {
+            "max_distance": 3.223,
+            "min_age": 1,
+            "min_iou": 0.1782,
+            "min_updates": 0
+          },
+          "per_detector_delta_HOTA": {
+            "casa": 0.03975625006361838,
+            "point-rcnn": 0.011493525022402196,
+            "pvrcnn": -0.049295663544654644,
+            "second-iou": -0.020317097429789044,
+            "virconv": 0.0009613947850226623
+          }
+        },
+        {
+          "adaptive": [
+            1.0,
+            0.0
+          ],
+          "development_metrics": {
+            "mean_sequence_equal_AssA": 67.75886665143307,
+            "mean_sequence_equal_HOTA": 63.720477866494534,
+            "per_detector": {
+              "casa": {
+                "AssA": 68.52657057090556,
+                "FP_FN": 2061,
+                "HOTA": 65.82767915816018,
+                "IDSW": 56
+              },
+              "point-rcnn": {
+                "AssA": 66.55711663275076,
+                "FP_FN": 3021,
+                "HOTA": 61.12426071934568,
+                "IDSW": 35
+              },
+              "pvrcnn": {
+                "AssA": 68.17680449771653,
+                "FP_FN": 2933,
+                "HOTA": 62.1336152233807,
+                "IDSW": 28
+              },
+              "second-iou": {
+                "AssA": 65.7796265734868,
+                "FP_FN": 2678,
+                "HOTA": 62.092701377450766,
+                "IDSW": 77
+              },
+              "virconv": {
+                "AssA": 69.75421498230574,
+                "FP_FN": 2158,
+                "HOTA": 67.42413285413537,
+                "IDSW": 37
+              }
+            },
+            "total_FP_plus_FN": 12851,
+            "total_IDSW": 233
+          },
+          "guard_pass": true,
+          "name": "adist_a1p0",
+          "parameters": {
+            "max_distance": 3.223,
+            "min_age": 1,
+            "min_iou": 0.1782,
+            "min_updates": 0
+          },
+          "per_detector_delta_HOTA": {
+            "casa": 0.0007270905441032482,
+            "point-rcnn": 0.040902960014228995,
+            "pvrcnn": -0.21981049695624222,
+            "second-iou": -0.050061953035630324,
+            "virconv": -0.059522787674524125
+          }
+        },
+        {
+          "adaptive": [
+            2.0,
+            0.0
+          ],
+          "development_metrics": {
+            "mean_sequence_equal_AssA": 67.63757997463253,
+            "mean_sequence_equal_HOTA": 63.60200268063106,
+            "per_detector": {
+              "casa": {
+                "AssA": 68.4862232484342,
+                "FP_FN": 2065,
+                "HOTA": 65.7905412304718,
+                "IDSW": 57
+              },
+              "point-rcnn": {
+                "AssA": 66.26815641643377,
+                "FP_FN": 3079,
+                "HOTA": 60.80547365589307,
+                "IDSW": 40
+              },
+              "pvrcnn": {
+                "AssA": 68.19422995979413,
+                "FP_FN": 2947,
+                "HOTA": 62.0829731340003,
+                "IDSW": 27
+              },
+              "second-iou": {
+                "AssA": 65.47705520993422,
+                "FP_FN": 2687,
+                "HOTA": 61.934201140605566,
+                "IDSW": 85
+              },
+              "virconv": {
+                "AssA": 69.76223503856632,
+                "FP_FN": 2162,
+                "HOTA": 67.39682424218455,
+                "IDSW": 37
+              }
+            },
+            "total_FP_plus_FN": 12940,
+            "total_IDSW": 246
+          },
+          "guard_pass": true,
+          "name": "adist_a2p0",
+          "parameters": {
+            "max_distance": 3.223,
+            "min_age": 1,
+            "min_iou": 0.1782,
+            "min_updates": 0
+          },
+          "per_detector_delta_HOTA": {
+            "casa": -0.036410837144273955,
+            "point-rcnn": -0.27788410343838166,
+            "pvrcnn": -0.2704525863366456,
+            "second-iou": -0.20856218988082986,
+            "virconv": -0.08683139962533915
+          }
+        }
+      ],
+      "selected": {
+        "adaptive_coefficients": [
+          0.5,
+          0.0
+        ],
+        "complexity": 0.5,
+        "development_metrics": {
+          "mean_sequence_equal_AssA": 67.82288872641944,
+          "mean_sequence_equal_HOTA": 63.774550585695465,
+          "per_detector": {
+            "casa": {
+              "AssA": 68.6056950072569,
+              "FP_FN": 2061,
+              "HOTA": 65.8667083176797,
+              "IDSW": 55
+            },
+            "point-rcnn": {
+              "AssA": 66.58786148111152,
+              "FP_FN": 3031,
+              "HOTA": 61.09485128435385,
+              "IDSW": 34
+            },
+            "pvrcnn": {
+              "AssA": 68.22355635715763,
+              "FP_FN": 2897,
+              "HOTA": 62.30413005679229,
+              "IDSW": 26
+            },
+            "second-iou": {
+              "AssA": 65.84113580217947,
+              "FP_FN": 2679,
+              "HOTA": 62.12244623305661,
+              "IDSW": 75
+            },
+            "virconv": {
+              "AssA": 69.85619498439166,
+              "FP_FN": 2155,
+              "HOTA": 67.48461703659491,
+              "IDSW": 35
+            }
+          },
+          "total_FP_plus_FN": 12823,
+          "total_IDSW": 225
+        },
+        "family": "adaptive_distance",
+        "guard_pass": true,
+        "maha_threshold": 7.814727903251179,
+        "name": "adist_a0p5",
+        "parameters": {
+          "max_distance": 3.223,
+          "min_age": 1,
+          "min_iou": 0.1782,
+          "min_updates": 0
+        },
+        "per_detector_delta_HOTA": {
+          "casa": 0.03975625006361838,
+          "point-rcnn": 0.011493525022402196,
+          "pvrcnn": -0.049295663544654644,
+          "second-iou": -0.020317097429789044,
+          "virconv": 0.0009613947850226623
+        }
+      }
+    },
+    "adaptive_joint": {
+      "guard_passed_any": true,
+      "ranking": [
+        {
+          "adaptive": [
+            0.5,
+            0.5
+          ],
+          "development_metrics": {
+            "mean_sequence_equal_AssA": 67.82288872641944,
+            "mean_sequence_equal_HOTA": 63.774935306948976,
+            "per_detector": {
+              "casa": {
+                "AssA": 68.6056950072569,
+                "FP_FN": 2061,
+                "HOTA": 65.8667083176797,
+                "IDSW": 55
+              },
+              "point-rcnn": {
+                "AssA": 66.58786148111152,
+                "FP_FN": 3031,
+                "HOTA": 61.09485128435385,
+                "IDSW": 34
+              },
+              "pvrcnn": {
+                "AssA": 68.22355635715763,
+                "FP_FN": 2897,
+                "HOTA": 62.30413005679229,
+                "IDSW": 26
+              },
+              "second-iou": {
+                "AssA": 65.84113580217947,
+                "FP_FN": 2679,
+                "HOTA": 62.12244623305661,
+                "IDSW": 75
+              },
+              "virconv": {
+                "AssA": 69.85619498439166,
+                "FP_FN": 2153,
+                "HOTA": 67.48654064286244,
+                "IDSW": 35
+              }
+            },
+            "total_FP_plus_FN": 12821,
+            "total_IDSW": 225
+          },
+          "guard_pass": true,
+          "name": "ajoint_a0p5_b0p5",
+          "parameters": {
+            "max_distance": 3.223,
+            "min_age": 1,
+            "min_iou": 0.1782,
+            "min_updates": 0
+          },
+          "per_detector_delta_HOTA": {
+            "casa": 0.03975625006361838,
+            "point-rcnn": 0.011493525022402196,
+            "pvrcnn": -0.049295663544654644,
+            "second-iou": -0.020317097429789044,
+            "virconv": 0.002885001052547409
+          }
+        },
+        {
+          "adaptive": [
+            0.5,
+            1.0
+          ],
+          "development_metrics": {
+            "mean_sequence_equal_AssA": 67.82288872641944,
+            "mean_sequence_equal_HOTA": 63.774935306948976,
+            "per_detector": {
+              "casa": {
+                "AssA": 68.6056950072569,
+                "FP_FN": 2061,
+                "HOTA": 65.8667083176797,
+                "IDSW": 55
+              },
+              "point-rcnn": {
+                "AssA": 66.58786148111152,
+                "FP_FN": 3031,
+                "HOTA": 61.09485128435385,
+                "IDSW": 34
+              },
+              "pvrcnn": {
+                "AssA": 68.22355635715763,
+                "FP_FN": 2897,
+                "HOTA": 62.30413005679229,
+                "IDSW": 26
+              },
+              "second-iou": {
+                "AssA": 65.84113580217947,
+                "FP_FN": 2679,
+                "HOTA": 62.12244623305661,
+                "IDSW": 75
+              },
+              "virconv": {
+                "AssA": 69.85619498439166,
+                "FP_FN": 2153,
+                "HOTA": 67.48654064286244,
+                "IDSW": 35
+              }
+            },
+            "total_FP_plus_FN": 12821,
+            "total_IDSW": 225
+          },
+          "guard_pass": true,
+          "name": "ajoint_a0p5_b1p0",
+          "parameters": {
+            "max_distance": 3.223,
+            "min_age": 1,
+            "min_iou": 0.1782,
+            "min_updates": 0
+          },
+          "per_detector_delta_HOTA": {
+            "casa": 0.03975625006361838,
+            "point-rcnn": 0.011493525022402196,
+            "pvrcnn": -0.049295663544654644,
+            "second-iou": -0.020317097429789044,
+            "virconv": 0.002885001052547409
+          }
+        },
+        {
+          "adaptive": [
+            0.5,
+            2.0
+          ],
+          "development_metrics": {
+            "mean_sequence_equal_AssA": 67.82288872641944,
+            "mean_sequence_equal_HOTA": 63.774935306948976,
+            "per_detector": {
+              "casa": {
+                "AssA": 68.6056950072569,
+                "FP_FN": 2061,
+                "HOTA": 65.8667083176797,
+                "IDSW": 55
+              },
+              "point-rcnn": {
+                "AssA": 66.58786148111152,
+                "FP_FN": 3031,
+                "HOTA": 61.09485128435385,
+                "IDSW": 34
+              },
+              "pvrcnn": {
+                "AssA": 68.22355635715763,
+                "FP_FN": 2897,
+                "HOTA": 62.30413005679229,
+                "IDSW": 26
+              },
+              "second-iou": {
+                "AssA": 65.84113580217947,
+                "FP_FN": 2679,
+                "HOTA": 62.12244623305661,
+                "IDSW": 75
+              },
+              "virconv": {
+                "AssA": 69.85619498439166,
+                "FP_FN": 2153,
+                "HOTA": 67.48654064286244,
+                "IDSW": 35
+              }
+            },
+            "total_FP_plus_FN": 12821,
+            "total_IDSW": 225
+          },
+          "guard_pass": true,
+          "name": "ajoint_a0p5_b2p0",
+          "parameters": {
+            "max_distance": 3.223,
+            "min_age": 1,
+            "min_iou": 0.1782,
+            "min_updates": 0
+          },
+          "per_detector_delta_HOTA": {
+            "casa": 0.03975625006361838,
+            "point-rcnn": 0.011493525022402196,
+            "pvrcnn": -0.049295663544654644,
+            "second-iou": -0.020317097429789044,
+            "virconv": 0.002885001052547409
+          }
+        },
+        {
+          "adaptive": [
+            1.0,
+            0.5
+          ],
+          "development_metrics": {
+            "mean_sequence_equal_AssA": 67.75886665143307,
+            "mean_sequence_equal_HOTA": 63.720477866494534,
+            "per_detector": {
+              "casa": {
+                "AssA": 68.52657057090556,
+                "FP_FN": 2061,
+                "HOTA": 65.82767915816018,
+                "IDSW": 56
+              },
+              "point-rcnn": {
+                "AssA": 66.55711663275076,
+                "FP_FN": 3021,
+                "HOTA": 61.12426071934568,
+                "IDSW": 35
+              },
+              "pvrcnn": {
+                "AssA": 68.17680449771653,
+                "FP_FN": 2933,
+                "HOTA": 62.1336152233807,
+                "IDSW": 28
+              },
+              "second-iou": {
+                "AssA": 65.7796265734868,
+                "FP_FN": 2678,
+                "HOTA": 62.092701377450766,
+                "IDSW": 77
+              },
+              "virconv": {
+                "AssA": 69.75421498230574,
+                "FP_FN": 2158,
+                "HOTA": 67.42413285413537,
+                "IDSW": 37
+              }
+            },
+            "total_FP_plus_FN": 12851,
+            "total_IDSW": 233
+          },
+          "guard_pass": true,
+          "name": "ajoint_a1p0_b0p5",
+          "parameters": {
+            "max_distance": 3.223,
+            "min_age": 1,
+            "min_iou": 0.1782,
+            "min_updates": 0
+          },
+          "per_detector_delta_HOTA": {
+            "casa": 0.0007270905441032482,
+            "point-rcnn": 0.040902960014228995,
+            "pvrcnn": -0.21981049695624222,
+            "second-iou": -0.050061953035630324,
+            "virconv": -0.059522787674524125
+          }
+        },
+        {
+          "adaptive": [
+            1.0,
+            1.0
+          ],
+          "development_metrics": {
+            "mean_sequence_equal_AssA": 67.75886665143307,
+            "mean_sequence_equal_HOTA": 63.720477866494534,
+            "per_detector": {
+              "casa": {
+                "AssA": 68.52657057090556,
+                "FP_FN": 2061,
+                "HOTA": 65.82767915816018,
+                "IDSW": 56
+              },
+              "point-rcnn": {
+                "AssA": 66.55711663275076,
+                "FP_FN": 3021,
+                "HOTA": 61.12426071934568,
+                "IDSW": 35
+              },
+              "pvrcnn": {
+                "AssA": 68.17680449771653,
+                "FP_FN": 2933,
+                "HOTA": 62.1336152233807,
+                "IDSW": 28
+              },
+              "second-iou": {
+                "AssA": 65.7796265734868,
+                "FP_FN": 2678,
+                "HOTA": 62.092701377450766,
+                "IDSW": 77
+              },
+              "virconv": {
+                "AssA": 69.75421498230574,
+                "FP_FN": 2158,
+                "HOTA": 67.42413285413537,
+                "IDSW": 37
+              }
+            },
+            "total_FP_plus_FN": 12851,
+            "total_IDSW": 233
+          },
+          "guard_pass": true,
+          "name": "ajoint_a1p0_b1p0",
+          "parameters": {
+            "max_distance": 3.223,
+            "min_age": 1,
+            "min_iou": 0.1782,
+            "min_updates": 0
+          },
+          "per_detector_delta_HOTA": {
+            "casa": 0.0007270905441032482,
+            "point-rcnn": 0.040902960014228995,
+            "pvrcnn": -0.21981049695624222,
+            "second-iou": -0.050061953035630324,
+            "virconv": -0.059522787674524125
+          }
+        },
+        {
+          "adaptive": [
+            1.0,
+            2.0
+          ],
+          "development_metrics": {
+            "mean_sequence_equal_AssA": 67.75886665143307,
+            "mean_sequence_equal_HOTA": 63.720477866494534,
+            "per_detector": {
+              "casa": {
+                "AssA": 68.52657057090556,
+                "FP_FN": 2061,
+                "HOTA": 65.82767915816018,
+                "IDSW": 56
+              },
+              "point-rcnn": {
+                "AssA": 66.55711663275076,
+                "FP_FN": 3021,
+                "HOTA": 61.12426071934568,
+                "IDSW": 35
+              },
+              "pvrcnn": {
+                "AssA": 68.17680449771653,
+                "FP_FN": 2933,
+                "HOTA": 62.1336152233807,
+                "IDSW": 28
+              },
+              "second-iou": {
+                "AssA": 65.7796265734868,
+                "FP_FN": 2678,
+                "HOTA": 62.092701377450766,
+                "IDSW": 77
+              },
+              "virconv": {
+                "AssA": 69.75421498230574,
+                "FP_FN": 2158,
+                "HOTA": 67.42413285413537,
+                "IDSW": 37
+              }
+            },
+            "total_FP_plus_FN": 12851,
+            "total_IDSW": 233
+          },
+          "guard_pass": true,
+          "name": "ajoint_a1p0_b2p0",
+          "parameters": {
+            "max_distance": 3.223,
+            "min_age": 1,
+            "min_iou": 0.1782,
+            "min_updates": 0
+          },
+          "per_detector_delta_HOTA": {
+            "casa": 0.0007270905441032482,
+            "point-rcnn": 0.040902960014228995,
+            "pvrcnn": -0.21981049695624222,
+            "second-iou": -0.050061953035630324,
+            "virconv": -0.059522787674524125
+          }
+        },
+        {
+          "adaptive": [
+            2.0,
+            0.5
+          ],
+          "development_metrics": {
+            "mean_sequence_equal_AssA": 67.63757997463253,
+            "mean_sequence_equal_HOTA": 63.60200268063106,
+            "per_detector": {
+              "casa": {
+                "AssA": 68.4862232484342,
+                "FP_FN": 2065,
+                "HOTA": 65.7905412304718,
+                "IDSW": 57
+              },
+              "point-rcnn": {
+                "AssA": 66.26815641643377,
+                "FP_FN": 3079,
+                "HOTA": 60.80547365589307,
+                "IDSW": 40
+              },
+              "pvrcnn": {
+                "AssA": 68.19422995979413,
+                "FP_FN": 2947,
+                "HOTA": 62.0829731340003,
+                "IDSW": 27
+              },
+              "second-iou": {
+                "AssA": 65.47705520993422,
+                "FP_FN": 2687,
+                "HOTA": 61.934201140605566,
+                "IDSW": 85
+              },
+              "virconv": {
+                "AssA": 69.76223503856632,
+                "FP_FN": 2162,
+                "HOTA": 67.39682424218455,
+                "IDSW": 37
+              }
+            },
+            "total_FP_plus_FN": 12940,
+            "total_IDSW": 246
+          },
+          "guard_pass": true,
+          "name": "ajoint_a2p0_b0p5",
+          "parameters": {
+            "max_distance": 3.223,
+            "min_age": 1,
+            "min_iou": 0.1782,
+            "min_updates": 0
+          },
+          "per_detector_delta_HOTA": {
+            "casa": -0.036410837144273955,
+            "point-rcnn": -0.27788410343838166,
+            "pvrcnn": -0.2704525863366456,
+            "second-iou": -0.20856218988082986,
+            "virconv": -0.08683139962533915
+          }
+        },
+        {
+          "adaptive": [
+            2.0,
+            1.0
+          ],
+          "development_metrics": {
+            "mean_sequence_equal_AssA": 67.63757997463253,
+            "mean_sequence_equal_HOTA": 63.60200268063106,
+            "per_detector": {
+              "casa": {
+                "AssA": 68.4862232484342,
+                "FP_FN": 2065,
+                "HOTA": 65.7905412304718,
+                "IDSW": 57
+              },
+              "point-rcnn": {
+                "AssA": 66.26815641643377,
+                "FP_FN": 3079,
+                "HOTA": 60.80547365589307,
+                "IDSW": 40
+              },
+              "pvrcnn": {
+                "AssA": 68.19422995979413,
+                "FP_FN": 2947,
+                "HOTA": 62.0829731340003,
+                "IDSW": 27
+              },
+              "second-iou": {
+                "AssA": 65.47705520993422,
+                "FP_FN": 2687,
+                "HOTA": 61.934201140605566,
+                "IDSW": 85
+              },
+              "virconv": {
+                "AssA": 69.76223503856632,
+                "FP_FN": 2162,
+                "HOTA": 67.39682424218455,
+                "IDSW": 37
+              }
+            },
+            "total_FP_plus_FN": 12940,
+            "total_IDSW": 246
+          },
+          "guard_pass": true,
+          "name": "ajoint_a2p0_b1p0",
+          "parameters": {
+            "max_distance": 3.223,
+            "min_age": 1,
+            "min_iou": 0.1782,
+            "min_updates": 0
+          },
+          "per_detector_delta_HOTA": {
+            "casa": -0.036410837144273955,
+            "point-rcnn": -0.27788410343838166,
+            "pvrcnn": -0.2704525863366456,
+            "second-iou": -0.20856218988082986,
+            "virconv": -0.08683139962533915
+          }
+        },
+        {
+          "adaptive": [
+            2.0,
+            2.0
+          ],
+          "development_metrics": {
+            "mean_sequence_equal_AssA": 67.63757997463253,
+            "mean_sequence_equal_HOTA": 63.60200268063106,
+            "per_detector": {
+              "casa": {
+                "AssA": 68.4862232484342,
+                "FP_FN": 2065,
+                "HOTA": 65.7905412304718,
+                "IDSW": 57
+              },
+              "point-rcnn": {
+                "AssA": 66.26815641643377,
+                "FP_FN": 3079,
+                "HOTA": 60.80547365589307,
+                "IDSW": 40
+              },
+              "pvrcnn": {
+                "AssA": 68.19422995979413,
+                "FP_FN": 2947,
+                "HOTA": 62.0829731340003,
+                "IDSW": 27
+              },
+              "second-iou": {
+                "AssA": 65.47705520993422,
+                "FP_FN": 2687,
+                "HOTA": 61.934201140605566,
+                "IDSW": 85
+              },
+              "virconv": {
+                "AssA": 69.76223503856632,
+                "FP_FN": 2162,
+                "HOTA": 67.39682424218455,
+                "IDSW": 37
+              }
+            },
+            "total_FP_plus_FN": 12940,
+            "total_IDSW": 246
+          },
+          "guard_pass": true,
+          "name": "ajoint_a2p0_b2p0",
+          "parameters": {
+            "max_distance": 3.223,
+            "min_age": 1,
+            "min_iou": 0.1782,
+            "min_updates": 0
+          },
+          "per_detector_delta_HOTA": {
+            "casa": -0.036410837144273955,
+            "point-rcnn": -0.27788410343838166,
+            "pvrcnn": -0.2704525863366456,
+            "second-iou": -0.20856218988082986,
+            "virconv": -0.08683139962533915
+          }
+        }
+      ],
+      "selected": {
+        "adaptive_coefficients": [
+          0.5,
+          0.5
+        ],
+        "complexity": 1.0,
+        "development_metrics": {
+          "mean_sequence_equal_AssA": 67.82288872641944,
+          "mean_sequence_equal_HOTA": 63.774935306948976,
+          "per_detector": {
+            "casa": {
+              "AssA": 68.6056950072569,
+              "FP_FN": 2061,
+              "HOTA": 65.8667083176797,
+              "IDSW": 55
+            },
+            "point-rcnn": {
+              "AssA": 66.58786148111152,
+              "FP_FN": 3031,
+              "HOTA": 61.09485128435385,
+              "IDSW": 34
+            },
+            "pvrcnn": {
+              "AssA": 68.22355635715763,
+              "FP_FN": 2897,
+              "HOTA": 62.30413005679229,
+              "IDSW": 26
+            },
+            "second-iou": {
+              "AssA": 65.84113580217947,
+              "FP_FN": 2679,
+              "HOTA": 62.12244623305661,
+              "IDSW": 75
+            },
+            "virconv": {
+              "AssA": 69.85619498439166,
+              "FP_FN": 2153,
+              "HOTA": 67.48654064286244,
+              "IDSW": 35
+            }
+          },
+          "total_FP_plus_FN": 12821,
+          "total_IDSW": 225
+        },
+        "family": "adaptive_joint",
+        "guard_pass": true,
+        "maha_threshold": 7.814727903251179,
+        "name": "ajoint_a0p5_b0p5",
+        "parameters": {
+          "max_distance": 3.223,
+          "min_age": 1,
+          "min_iou": 0.1782,
+          "min_updates": 0
+        },
+        "per_detector_delta_HOTA": {
+          "casa": 0.03975625006361838,
+          "point-rcnn": 0.011493525022402196,
+          "pvrcnn": -0.049295663544654644,
+          "second-iou": -0.020317097429789044,
+          "virconv": 0.002885001052547409
+        }
+      }
+    },
+    "adaptive_overlap": {
+      "guard_passed_any": true,
+      "ranking": [
+        {
+          "adaptive": [
+            0.0,
+            2.0
+          ],
+          "development_metrics": {
+            "mean_sequence_equal_AssA": 67.82763531822047,
+            "mean_sequence_equal_HOTA": 63.78200581472599,
+            "per_detector": {
+              "casa": {
+                "AssA": 68.52538079503665,
+                "FP_FN": 2062,
+                "HOTA": 65.82695206761608,
+                "IDSW": 58
+              },
+              "point-rcnn": {
+                "AssA": 66.65587896404102,
+                "FP_FN": 3032,
+                "HOTA": 61.11712599478817,
+                "IDSW": 34
+              },
+              "pvrcnn": {
+                "AssA": 68.22502803037817,
+                "FP_FN": 2896,
+                "HOTA": 62.33664703787687,
+                "IDSW": 26
+              },
+              "second-iou": {
+                "AssA": 65.87569381725481,
+                "FP_FN": 2677,
+                "HOTA": 62.142763330486396,
+                "IDSW": 72
+              },
+              "virconv": {
+                "AssA": 69.85619498439166,
+                "FP_FN": 2153,
+                "HOTA": 67.48654064286244,
+                "IDSW": 35
+              }
+            },
+            "total_FP_plus_FN": 12820,
+            "total_IDSW": 225
+          },
+          "guard_pass": true,
+          "name": "aover_b2p0",
+          "parameters": {
+            "max_distance": 3.223,
+            "min_age": 1,
+            "min_iou": 0.1782,
+            "min_updates": 0
+          },
+          "per_detector_delta_HOTA": {
+            "casa": 0.0,
+            "point-rcnn": 0.03376823545671925,
+            "pvrcnn": -0.01677868246007108,
+            "second-iou": 0.0,
+            "virconv": 0.002885001052547409
+          }
+        },
+        {
+          "adaptive": [
+            0.0,
+            0.5
+          ],
+          "development_metrics": {
+            "mean_sequence_equal_AssA": 67.81593021529787,
+            "mean_sequence_equal_HOTA": 63.77877858051146,
+            "per_detector": {
+              "casa": {
+                "AssA": 68.52538079503665,
+                "FP_FN": 2062,
+                "HOTA": 65.82695206761608,
+                "IDSW": 58
+              },
+              "point-rcnn": {
+                "AssA": 66.597353449428,
+                "FP_FN": 3035,
+                "HOTA": 61.08421114125546,
+                "IDSW": 35
+              },
+              "pvrcnn": {
+                "AssA": 68.22502803037817,
+                "FP_FN": 2891,
+                "HOTA": 62.35342572033694,
+                "IDSW": 26
+              },
+              "second-iou": {
+                "AssA": 65.87569381725481,
+                "FP_FN": 2677,
+                "HOTA": 62.142763330486396,
+                "IDSW": 72
+              },
+              "virconv": {
+                "AssA": 69.85619498439166,
+                "FP_FN": 2153,
+                "HOTA": 67.48654064286244,
+                "IDSW": 35
+              }
+            },
+            "total_FP_plus_FN": 12818,
+            "total_IDSW": 226
+          },
+          "guard_pass": true,
+          "name": "aover_b0p5",
+          "parameters": {
+            "max_distance": 3.223,
+            "min_age": 1,
+            "min_iou": 0.1782,
+            "min_updates": 0
+          },
+          "per_detector_delta_HOTA": {
+            "casa": 0.0,
+            "point-rcnn": 0.000853381924009966,
+            "pvrcnn": 0.0,
+            "second-iou": 0.0,
+            "virconv": 0.002885001052547409
+          }
+        },
+        {
+          "adaptive": [
+            0.0,
+            1.0
+          ],
+          "development_metrics": {
+            "mean_sequence_equal_AssA": 67.81593021529787,
+            "mean_sequence_equal_HOTA": 63.77877858051146,
+            "per_detector": {
+              "casa": {
+                "AssA": 68.52538079503665,
+                "FP_FN": 2062,
+                "HOTA": 65.82695206761608,
+                "IDSW": 58
+              },
+              "point-rcnn": {
+                "AssA": 66.597353449428,
+                "FP_FN": 3035,
+                "HOTA": 61.08421114125546,
+                "IDSW": 35
+              },
+              "pvrcnn": {
+                "AssA": 68.22502803037817,
+                "FP_FN": 2891,
+                "HOTA": 62.35342572033694,
+                "IDSW": 26
+              },
+              "second-iou": {
+                "AssA": 65.87569381725481,
+                "FP_FN": 2677,
+                "HOTA": 62.142763330486396,
+                "IDSW": 72
+              },
+              "virconv": {
+                "AssA": 69.85619498439166,
+                "FP_FN": 2153,
+                "HOTA": 67.48654064286244,
+                "IDSW": 35
+              }
+            },
+            "total_FP_plus_FN": 12818,
+            "total_IDSW": 226
+          },
+          "guard_pass": true,
+          "name": "aover_b1p0",
+          "parameters": {
+            "max_distance": 3.223,
+            "min_age": 1,
+            "min_iou": 0.1782,
+            "min_updates": 0
+          },
+          "per_detector_delta_HOTA": {
+            "casa": 0.0,
+            "point-rcnn": 0.000853381924009966,
+            "pvrcnn": 0.0,
+            "second-iou": 0.0,
+            "virconv": 0.002885001052547409
+          }
+        }
+      ],
+      "selected": {
+        "adaptive_coefficients": [
+          0.0,
+          2.0
+        ],
+        "complexity": 2.0,
+        "development_metrics": {
+          "mean_sequence_equal_AssA": 67.82763531822047,
+          "mean_sequence_equal_HOTA": 63.78200581472599,
+          "per_detector": {
+            "casa": {
+              "AssA": 68.52538079503665,
+              "FP_FN": 2062,
+              "HOTA": 65.82695206761608,
+              "IDSW": 58
+            },
+            "point-rcnn": {
+              "AssA": 66.65587896404102,
+              "FP_FN": 3032,
+              "HOTA": 61.11712599478817,
+              "IDSW": 34
+            },
+            "pvrcnn": {
+              "AssA": 68.22502803037817,
+              "FP_FN": 2896,
+              "HOTA": 62.33664703787687,
+              "IDSW": 26
+            },
+            "second-iou": {
+              "AssA": 65.87569381725481,
+              "FP_FN": 2677,
+              "HOTA": 62.142763330486396,
+              "IDSW": 72
+            },
+            "virconv": {
+              "AssA": 69.85619498439166,
+              "FP_FN": 2153,
+              "HOTA": 67.48654064286244,
+              "IDSW": 35
+            }
+          },
+          "total_FP_plus_FN": 12820,
+          "total_IDSW": 225
+        },
+        "family": "adaptive_overlap",
+        "guard_pass": true,
+        "maha_threshold": 7.814727903251179,
+        "name": "aover_b2p0",
+        "parameters": {
+          "max_distance": 3.223,
+          "min_age": 1,
+          "min_iou": 0.1782,
+          "min_updates": 0
+        },
+        "per_detector_delta_HOTA": {
+          "casa": 0.0,
+          "point-rcnn": 0.03376823545671925,
+          "pvrcnn": -0.01677868246007108,
+          "second-iou": 0.0,
+          "virconv": 0.002885001052547409
+        }
+      }
+    }
+  },
+  "status": "completed"
+}

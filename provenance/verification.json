@@ -1,0 +1,124 @@
+{
+  "date": "2026-11-20",
+  "kitti": [
+    {
+      "detector": "point-rcnn",
+      "sequence": "0001",
+      "variant": "no_hceg",
+      "frames": 447,
+      "HOTA": 66.55538087106692,
+      "all_metrics_exact": true,
+      "result_sha256_exact": true,
+      "sha256": "af20206f77e3c9258e8dd53c69d561cda528f426e3f0c1a94c8c02f14d362026"
+    },
+    {
+      "detector": "point-rcnn",
+      "sequence": "0001",
+      "variant": "no_maturity",
+      "frames": 447,
+      "HOTA": 73.97452056046167,
+      "all_metrics_exact": true,
+      "result_sha256_exact": true,
+      "sha256": "3794522335ce6339d72b159fbf600d644d4501e75c0230d931082356dfeb44e1"
+    }
+  ],
+  "v2v4real": [
+    {
+      "arm": "adaptive_joint_a0p5_b0p5",
+      "sequences": 3,
+      "frames": 405,
+      "all_metrics_exact": true,
+      "aggregate": {
+        "FN": 929,
+        "FP": 580,
+        "Frames": 405,
+        "GT": 1549,
+        "IDS": 2,
+        "MOTA": 0.02453195610071013,
+        "MOTP": 0.2633560276482994,
+        "Precision": 0.5166666666666667,
+        "Recall": 0.4002582311168496,
+        "TP": 620,
+        "per_sequence_IDS_mean": 0.6666666666666666,
+        "per_sequence_IDS_std": 0.9428090415820634,
+        "per_sequence_MOTA_mean": 0.01095367017099728,
+        "per_sequence_MOTA_std": 0.13365136743499847,
+        "per_sequence_MOTP_mean": 0.2323196027624085,
+        "per_sequence_MOTP_std": 0.07195270477543321,
+        "per_sequence_Precision_mean": 0.49635444623367325,
+        "per_sequence_Precision_std": 0.08289691841183884,
+        "per_sequence_Recall_mean": 0.3870749973629619,
+        "per_sequence_Recall_std": 0.12411255642236345
+      }
+    },
+    {
+      "arm": "fixed_all_active",
+      "sequences": 3,
+      "frames": 405,
+      "all_metrics_exact": true,
+      "aggregate": {
+        "FN": 928,
+        "FP": 540,
+        "Frames": 405,
+        "GT": 1549,
+        "IDS": 11,
+        "MOTA": 0.045190445448676564,
+        "MOTP": 0.25852629230760554,
+        "Precision": 0.5348837209302325,
+        "Recall": 0.40090380890897354,
+        "TP": 621,
+        "per_sequence_IDS_mean": 3.6666666666666665,
+        "per_sequence_IDS_std": 4.4969125210773475,
+        "per_sequence_MOTA_mean": 0.02888084103934463,
+        "per_sequence_MOTA_std": 0.15767615817412026,
+        "per_sequence_MOTP_mean": 0.22925919576342135,
+        "per_sequence_MOTP_std": 0.06778094505750351,
+        "per_sequence_Precision_mean": 0.5123693756090534,
+        "per_sequence_Precision_std": 0.10316875468399875,
+        "per_sequence_Recall_mean": 0.38763522145259777,
+        "per_sequence_Recall_std": 0.12489167805291938
+      }
+    },
+    {
+      "arm": "off",
+      "sequences": 3,
+      "frames": 405,
+      "all_metrics_exact": true,
+      "aggregate": {
+        "FN": 932,
+        "FP": 932,
+        "Frames": 405,
+        "GT": 1549,
+        "IDS": 3,
+        "MOTA": -0.2052937378954165,
+        "MOTP": 0.27927016312373215,
+        "Precision": 0.3983214977404777,
+        "Recall": 0.3983214977404777,
+        "TP": 617,
+        "per_sequence_IDS_mean": 1.0,
+        "per_sequence_IDS_std": 0.816496580927726,
+        "per_sequence_MOTA_mean": -0.2200578976360418,
+        "per_sequence_MOTA_std": 0.14655410279734676,
+        "per_sequence_MOTP_mean": 0.24331180712356756,
+        "per_sequence_MOTP_std": 0.08397631511857681,
+        "per_sequence_Precision_mean": 0.38278794155017987,
+        "per_sequence_Precision_std": 0.07653031572841931,
+        "per_sequence_Recall_mean": 0.3853913950517445,
+        "per_sequence_Recall_std": 0.12210741081927166
+      }
+    }
+  ],
+  "unit_tests": {
+    "passed": 3
+  },
+  "verification_scope": "KITTI PointRCNN sequence 0001 gate off/on, and V2V4Real all three sequences for off/fixed/adaptive joint.",
+  "full_kitti_and_nuscenes_rerun": false,
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.5.1",
+    "scipy": "1.17.1",
+    "torch": "2.6.0+cu124",
+    "opencv-python": "4.13.0.92",
+    "pytest": "8.3.4"
+  }
+}

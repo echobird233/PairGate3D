@@ -1,0 +1,201 @@
+{
+  "clean_frame_input_sha256": "a81bc071788ff7cdb8f29c6067d5898fbe0b2b105c45c912a4605352aeb5b7a2",
+  "condition": {
+    "drop_rate": 0.0,
+    "seed": 42,
+    "type": "clean"
+  },
+  "created_at_utc": "2026-08-12T12:11:22.465467+00:00",
+  "dataset": "V2V4Real",
+  "detector": "Official PointPillar No Fusion",
+  "detector_stream": "evaluation/results/v2v4real_p1_clean_v1/detector/v2v4real_p1_detector_stream.npz",
+  "detector_stream_sha256": "dc857a177ad8f62eb10bed6a4cd58a714115b7f53b45a8ec8feee3cb4a5cd4e2",
+  "elapsed_seconds": 2.7585166999997455,
+  "frames": 405,
+  "freeze_id": "vloode_final_20260812_v1",
+  "freeze_manifest": "experiments/frozen/vloode_final_20260812_v1/manifest.json",
+  "freeze_manifest_sha256": "3d1abf98deb2b3b5b25193be27e32a0f5f152e69155feac08edce0e06fc8ff36",
+  "global": {
+    "KF": {
+      "FN": 945,
+      "FP": 711,
+      "Frames": 405,
+      "GT": 1549,
+      "IDS": 23,
+      "MOTA": -0.0839251129761136,
+      "MOTP": 0.24993615866900915,
+      "Precision": 0.45931558935361216,
+      "Recall": 0.3899289864428664,
+      "TP": 604,
+      "per_sequence_IDS_mean": 7.666666666666667,
+      "per_sequence_IDS_std": 9.463379711052259,
+      "per_sequence_MOTA_mean": -0.09768819661755916,
+      "per_sequence_MOTA_std": 0.13085900858673957,
+      "per_sequence_MOTP_mean": 0.22473398689649718,
+      "per_sequence_MOTP_std": 0.06109289397560302,
+      "per_sequence_Precision_mean": 0.4408731578745926,
+      "per_sequence_Precision_std": 0.08762600023245212,
+      "per_sequence_Recall_mean": 0.37756583805070143,
+      "per_sequence_Recall_std": 0.11582616063668622
+    },
+    "ODE": {
+      "FN": 918,
+      "FP": 753,
+      "Frames": 405,
+      "GT": 1549,
+      "IDS": 1,
+      "MOTA": -0.07940606843124587,
+      "MOTP": 0.2875808599189014,
+      "Precision": 0.4559248554913295,
+      "Recall": 0.40735958683021306,
+      "TP": 631,
+      "per_sequence_IDS_mean": 0.3333333333333333,
+      "per_sequence_IDS_std": 0.4714045207910317,
+      "per_sequence_MOTA_mean": -0.09457180361684418,
+      "per_sequence_MOTA_std": 0.14133971506397608,
+      "per_sequence_MOTP_mean": 0.2560496823356906,
+      "per_sequence_MOTP_std": 0.07614655847998582,
+      "per_sequence_Precision_mean": 0.43723281670901915,
+      "per_sequence_Precision_std": 0.0827780819792978,
+      "per_sequence_Recall_mean": 0.39460872214994785,
+      "per_sequence_Recall_std": 0.12194162769425951
+    },
+    "delta_ODE_minus_KF": {
+      "FN": -27.0,
+      "FP": 42.0,
+      "IDS": -22.0,
+      "MOTA": 0.004519044544867734,
+      "MOTP": 0.037644701249892276,
+      "Precision": -0.003390733862282669,
+      "Recall": 0.017430600387346673,
+      "TP": 27.0
+    }
+  },
+  "histories": "evaluation/results/vloode_final_20260812_v1/v2v4real/clean/seed_42/histories.json",
+  "histories_sha256": "490140a8cec52bec960f3e5c627503f472fd873087afb68877ddab4bddefa811",
+  "inventory_sha256": "86cee2633c83609107229ce43c66b797915a7dee6926d7b7ee6a385f66743d8b",
+  "kf_config": "experiments/frozen/vloode_final_20260812_v1/configs/v2v4real_kf.yaml",
+  "kf_config_sha256": "32b8a5ea0c6fcf9958c5146b0d5a00107fdeabaa974a663cebced95c846b2da0",
+  "masks": {
+    "testoutput_CAV_data_2022-03-15-09-54-40_0": {
+      "drop_rate": 0.0,
+      "dropped_count": 0,
+      "dropped_frame_ids": [],
+      "seed": 42,
+      "sequence_index": 0,
+      "total_frames": 147
+    },
+    "testoutput_CAV_data_2022-03-15-10-29-43_3": {
+      "drop_rate": 0.0,
+      "dropped_count": 0,
+      "dropped_frame_ids": [],
+      "seed": 42,
+      "sequence_index": 1,
+      "total_frames": 114
+    },
+    "testoutput_CAV_data_2022-03-15-10-29-43_4": {
+      "drop_rate": 0.0,
+      "dropped_count": 0,
+      "dropped_frame_ids": [],
+      "seed": 42,
+      "sequence_index": 2,
+      "total_frames": 144
+    }
+  },
+  "native_rate_hz": 10,
+  "ode_config": "experiments/frozen/vloode_final_20260812_v1/configs/v2v4real_vloode.yaml",
+  "ode_config_sha256": "cb33c3c38398efa4673cef01acca916c9760525fb803d0afabc8e27006fabdcb",
+  "paired_observation_sha256": {
+    "testoutput_CAV_data_2022-03-15-09-54-40_0": "590268dcab579a56eafea58a8feeeb386ce9bd9f960cbba729783b68d807e6d4",
+    "testoutput_CAV_data_2022-03-15-10-29-43_3": "fbb5fb22c1efb3e982dec8a182afa5cf170cd54fc9e1f0777e0f343d7015a486",
+    "testoutput_CAV_data_2022-03-15-10-29-43_4": "892ece4d2a700195e79679e19f252fcabfa0ef1387f9e5d31e298fa3415ecafb"
+  },
+  "per_sequence": {
+    "KF": {
+      "testoutput_CAV_data_2022-03-15-09-54-40_0": {
+        "FN": 274,
+        "FP": 251,
+        "Frames": 147,
+        "GT": 595,
+        "IDS": 21,
+        "MOTA": 0.08235294117647063,
+        "MOTP": 0.3067995077791762,
+        "Precision": 0.5611888111888111,
+        "Recall": 0.5394957983193277,
+        "TP": 321
+      },
+      "testoutput_CAV_data_2022-03-15-10-29-43_3": {
+        "FN": 345,
+        "FP": 238,
+        "Frames": 114,
+        "GT": 476,
+        "IDS": 0,
+        "MOTA": -0.22478991596638664,
+        "MOTP": 0.16030357159057051,
+        "Precision": 0.35501355013550134,
+        "Recall": 0.27521008403361347,
+        "TP": 131
+      },
+      "testoutput_CAV_data_2022-03-15-10-29-43_4": {
+        "FN": 326,
+        "FP": 222,
+        "Frames": 144,
+        "GT": 478,
+        "IDS": 2,
+        "MOTA": -0.15062761506276146,
+        "MOTP": 0.20709888131974488,
+        "Precision": 0.40641711229946526,
+        "Recall": 0.3179916317991632,
+        "TP": 152
+      }
+    },
+    "ODE": {
+      "testoutput_CAV_data_2022-03-15-09-54-40_0": {
+        "FN": 261,
+        "FP": 271,
+        "Frames": 147,
+        "GT": 595,
+        "IDS": 1,
+        "MOTA": 0.10420168067226887,
+        "MOTP": 0.35668638645024614,
+        "Precision": 0.5520661157024793,
+        "Recall": 0.561344537815126,
+        "TP": 334
+      },
+      "testoutput_CAV_data_2022-03-15-10-29-43_3": {
+        "FN": 346,
+        "FP": 231,
+        "Frames": 114,
+        "GT": 476,
+        "IDS": 0,
+        "MOTA": -0.21218487394957974,
+        "MOTP": 0.17254039942014374,
+        "Precision": 0.3601108033240997,
+        "Recall": 0.27310924369747897,
+        "TP": 130
+      },
+      "testoutput_CAV_data_2022-03-15-10-29-43_4": {
+        "FN": 311,
+        "FP": 251,
+        "Frames": 144,
+        "GT": 478,
+        "IDS": 0,
+        "MOTA": -0.17573221757322166,
+        "MOTP": 0.23892226113668197,
+        "Precision": 0.39952153110047844,
+        "Recall": 0.3493723849372385,
+        "TP": 167
+      }
+    }
+  },
+  "schema_version": 1,
+  "sequences": [
+    "testoutput_CAV_data_2022-03-15-09-54-40_0",
+    "testoutput_CAV_data_2022-03-15-10-29-43_3",
+    "testoutput_CAV_data_2022-03-15-10-29-43_4"
+  ],
+  "split": "official test1, three sequences",
+  "status": "COMPLETED_FROZEN_FINAL",
+  "weight": "experiments/frozen/vloode_final_20260812_v1/weights/uaro_best.pth",
+  "weight_sha256": "320a1a69b2ef91c52b55d579039a6c8f2bf4fea61e1a751e40b6ee626e929917"
+}

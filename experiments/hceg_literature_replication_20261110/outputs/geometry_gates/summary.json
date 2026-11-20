@@ -1,0 +1,163 @@
+{
+  "protocol": "eleven held-out KITTI sequences, five detector streams, one evaluation per development-selected threshold, custom CLEAR-MOT incompatible attributes excluded",
+  "references": {
+    "joint_gate": {
+      "AssA": 81.4306080392617,
+      "HOTA": 78.29344233368138,
+      "MOTA": 83.60424871703067
+    },
+    "no_gate": {
+      "AssA": 77.8630875990355,
+      "HOTA": 75.95244028270251,
+      "MOTA": 81.57536698890083
+    }
+  },
+  "rows": [
+    {
+      "delta_HOTA_vs_joint": {
+        "lower_95": -2.400742439009385,
+        "mean": -1.6502368801865233,
+        "upper_95": -1.0515644498205732
+      },
+      "delta_HOTA_vs_no_gate": {
+        "lower_95": -0.30131373008151197,
+        "mean": 0.3572266936975371,
+        "upper_95": 1.1649098240557518
+      },
+      "dev_guard_pass": false,
+      "family": "heading",
+      "label": "heading consistency",
+      "mean_AssA": 79.28090496381465,
+      "mean_HOTA": 76.6068014298085,
+      "mean_MOTA": 80.75187969924812,
+      "name": "heading_30p0",
+      "per_detector_delta_HOTA_vs_no_gate": {
+        "casa": -0.36074660494795036,
+        "point-rcnn": 3.306023171411874,
+        "pvrcnn": 0.598981917374542,
+        "second-iou": -0.6796398895156505,
+        "virconv": -1.0784851258351296
+      },
+      "selected_value": 30.0,
+      "total_FP_FN": 7583,
+      "total_IDSW": 481
+    },
+    {
+      "delta_HOTA_vs_joint": {
+        "lower_95": -1.780198551460627,
+        "mean": -1.178229988240339,
+        "upper_95": -0.6375355739125901
+      },
+      "delta_HOTA_vs_no_gate": {
+        "lower_95": 0.3067848159079241,
+        "mean": 0.8292335856437214,
+        "upper_95": 1.470594090410035
+      },
+      "dev_guard_pass": true,
+      "family": "heading_fold",
+      "label": "heading consistency (ambiguity-corrected)",
+      "mean_AssA": 79.47499243186023,
+      "mean_HOTA": 76.94898149010744,
+      "mean_MOTA": 82.31769900942832,
+      "name": "heading_fold_30p0",
+      "per_detector_delta_HOTA_vs_no_gate": {
+        "casa": 0.10185329216311732,
+        "point-rcnn": 2.506553908642786,
+        "pvrcnn": 0.9304003977737032,
+        "second-iou": 0.13983670895467915,
+        "virconv": 0.4675236206843213
+      },
+      "selected_value": 30.0,
+      "total_FP_FN": 7266,
+      "total_IDSW": 142
+    },
+    {
+      "delta_HOTA_vs_joint": {
+        "lower_95": -19.913488285523282,
+        "mean": -10.263282152588271,
+        "upper_95": -2.938138168060836
+      },
+      "delta_HOTA_vs_no_gate": {
+        "lower_95": -18.476837271592125,
+        "mean": -8.255818578704213,
+        "upper_95": -0.22933063967459213
+      },
+      "dev_guard_pass": false,
+      "family": "maha2",
+      "label": "BEV Mahalanobis",
+      "mean_AssA": 64.88030574490537,
+      "mean_HOTA": 68.33756078989356,
+      "mean_MOTA": 74.15682062298603,
+      "name": "maha2_9p21",
+      "per_detector_delta_HOTA_vs_no_gate": {
+        "casa": -9.864214003000482,
+        "point-rcnn": -4.663541839370461,
+        "pvrcnn": -7.642089884906382,
+        "second-iou": -8.757746334224642,
+        "virconv": -10.351500832019095
+      },
+      "selected_value": 9.21,
+      "total_FP_FN": 8796,
+      "total_IDSW": 2031
+    },
+    {
+      "delta_HOTA_vs_joint": {
+        "lower_95": -2.343386051401634,
+        "mean": -1.454184410810434,
+        "upper_95": -0.7505108231813893
+      },
+      "delta_HOTA_vs_no_gate": {
+        "lower_95": 0.12075703509390225,
+        "mean": 0.5532791630736266,
+        "upper_95": 1.123073481771204
+      },
+      "dev_guard_pass": true,
+      "family": "relcost",
+      "label": "relative cost (non-geometric)",
+      "mean_AssA": 79.626845544443,
+      "mean_HOTA": 76.89663333211156,
+      "mean_MOTA": 81.91908342284282,
+      "name": "relcost_1p5",
+      "per_detector_delta_HOTA_vs_no_gate": {
+        "casa": 0.17015523397868745,
+        "point-rcnn": 1.8420627376536294,
+        "pvrcnn": 0.5264378820477357,
+        "second-iou": 0.04465131334050134,
+        "virconv": 0.1830886483475793
+      },
+      "selected_value": 1.5,
+      "total_FP_FN": 7454,
+      "total_IDSW": 121
+    },
+    {
+      "delta_HOTA_vs_joint": {
+        "lower_95": -0.1183132973541115,
+        "mean": -0.028376365094056475,
+        "upper_95": 0.040099322905362736
+      },
+      "delta_HOTA_vs_no_gate": {
+        "lower_95": 0.9456651803279178,
+        "mean": 1.9790872087900042,
+        "upper_95": 3.1761418807236557
+      },
+      "dev_guard_pass": true,
+      "family": "scale_distance",
+      "label": "scale-normalised distance",
+      "mean_AssA": 81.39461684688386,
+      "mean_HOTA": 78.27826762556542,
+      "mean_MOTA": 83.5827664399093,
+      "name": "scale_distance_1p0",
+      "per_detector_delta_HOTA_vs_no_gate": {
+        "casa": 0.6614998306972524,
+        "point-rcnn": 5.506748551254602,
+        "pvrcnn": 2.2731316428730506,
+        "second-iou": 0.5911314001441684,
+        "virconv": 0.8629246189809472
+      },
+      "selected_value": 1.0,
+      "total_FP_FN": 6770,
+      "total_IDSW": 108
+    }
+  ],
+  "status": "completed"
+}

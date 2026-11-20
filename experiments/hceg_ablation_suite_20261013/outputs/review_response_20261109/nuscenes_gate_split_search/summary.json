@@ -1,0 +1,362 @@
+{
+  "any_candidate_met_constraints": true,
+  "calibration_scene_count": 50,
+  "candidate_results": [
+    {
+      "equal_scene_metrics": {
+        "FN": 200.48,
+        "FP": 133.84,
+        "IDS": 21.14,
+        "MOTA": 0.24985030582979362,
+        "Recall": 0.6484917185835516,
+        "TP": 341.4,
+        "scene_count": 50,
+        "total_FN": 10024,
+        "total_FP": 6692,
+        "total_IDS": 1057
+      },
+      "guard_pass": true,
+      "max_distance_m": 2.5,
+      "min_bev_iou": 0.1,
+      "name": "d2p5_i0p1",
+      "result_path": "experiments/hceg_ablation_suite_20261013/outputs/review_response_20261109/nuscenes_gate_split_search/calibration/d2p5_i0p1"
+    },
+    {
+      "equal_scene_metrics": {
+        "FN": 202.24,
+        "FP": 131.24,
+        "IDS": 28.92,
+        "MOTA": 0.22997322960349453,
+        "Recall": 0.6437089468271471,
+        "TP": 339.64,
+        "scene_count": 50,
+        "total_FN": 10112,
+        "total_FP": 6562,
+        "total_IDS": 1446
+      },
+      "guard_pass": true,
+      "max_distance_m": 2.5,
+      "min_bev_iou": 0.18,
+      "name": "d2p5_i0p18",
+      "result_path": "experiments/hceg_ablation_suite_20261013/outputs/review_response_20261109/nuscenes_gate_split_search/calibration/d2p5_i0p18"
+    },
+    {
+      "equal_scene_metrics": {
+        "FN": 201.44,
+        "FP": 139.1,
+        "IDS": 22.9,
+        "MOTA": 0.2387209273631113,
+        "Recall": 0.6472755564413604,
+        "TP": 340.44,
+        "scene_count": 50,
+        "total_FN": 10072,
+        "total_FP": 6955,
+        "total_IDS": 1145
+      },
+      "guard_pass": true,
+      "max_distance_m": 3.0,
+      "min_bev_iou": 0.1,
+      "name": "d3p0_i0p1",
+      "result_path": "experiments/hceg_ablation_suite_20261013/outputs/review_response_20261109/nuscenes_gate_split_search/calibration/d3p0_i0p1"
+    },
+    {
+      "equal_scene_metrics": {
+        "FN": 202.02,
+        "FP": 137.74,
+        "IDS": 27.94,
+        "MOTA": 0.22652439311338718,
+        "Recall": 0.6458551645115709,
+        "TP": 339.86,
+        "scene_count": 50,
+        "total_FN": 10101,
+        "total_FP": 6887,
+        "total_IDS": 1397
+      },
+      "guard_pass": true,
+      "max_distance_m": 3.0,
+      "min_bev_iou": 0.15,
+      "name": "d3p0_i0p15",
+      "result_path": "experiments/hceg_ablation_suite_20261013/outputs/review_response_20261109/nuscenes_gate_split_search/calibration/d3p0_i0p15"
+    },
+    {
+      "equal_scene_metrics": {
+        "FN": 202.26,
+        "FP": 136.78,
+        "IDS": 29.62,
+        "MOTA": 0.22084485615312313,
+        "Recall": 0.6438922482531236,
+        "TP": 339.62,
+        "scene_count": 50,
+        "total_FN": 10113,
+        "total_FP": 6839,
+        "total_IDS": 1481
+      },
+      "guard_pass": true,
+      "max_distance_m": 3.0,
+      "min_bev_iou": 0.1782,
+      "name": "d3p0_i0p1782",
+      "result_path": "experiments/hceg_ablation_suite_20261013/outputs/review_response_20261109/nuscenes_gate_split_search/calibration/d3p0_i0p1782"
+    },
+    {
+      "equal_scene_metrics": {
+        "FN": 200.64,
+        "FP": 143.36,
+        "IDS": 27.76,
+        "MOTA": 0.22336806256073785,
+        "Recall": 0.6488276657289334,
+        "TP": 341.24,
+        "scene_count": 50,
+        "total_FN": 10032,
+        "total_FP": 7168,
+        "total_IDS": 1388
+      },
+      "guard_pass": true,
+      "max_distance_m": 3.5,
+      "min_bev_iou": 0.15,
+      "name": "d3p5_i0p15",
+      "result_path": "experiments/hceg_ablation_suite_20261013/outputs/review_response_20261109/nuscenes_gate_split_search/calibration/d3p5_i0p15"
+    },
+    {
+      "equal_scene_metrics": {
+        "FN": 200.62,
+        "FP": 143.08,
+        "IDS": 27.86,
+        "MOTA": 0.2234465113141907,
+        "Recall": 0.6488226635387351,
+        "TP": 341.26,
+        "scene_count": 50,
+        "total_FN": 10031,
+        "total_FP": 7154,
+        "total_IDS": 1393
+      },
+      "guard_pass": true,
+      "max_distance_m": 3.5,
+      "min_bev_iou": 0.1782,
+      "name": "d3p5_i0p1782",
+      "result_path": "experiments/hceg_ablation_suite_20261013/outputs/review_response_20261109/nuscenes_gate_split_search/calibration/d3p5_i0p1782"
+    },
+    {
+      "equal_scene_metrics": {
+        "FN": 200.5,
+        "FP": 142.3,
+        "IDS": 27.8,
+        "MOTA": 0.22523547165561972,
+        "Recall": 0.6491732986288256,
+        "TP": 341.38,
+        "scene_count": 50,
+        "total_FN": 10025,
+        "total_FP": 7115,
+        "total_IDS": 1390
+      },
+      "guard_pass": true,
+      "max_distance_m": 3.5,
+      "min_bev_iou": 0.22,
+      "name": "d3p5_i0p22",
+      "result_path": "experiments/hceg_ablation_suite_20261013/outputs/review_response_20261109/nuscenes_gate_split_search/calibration/d3p5_i0p22"
+    },
+    {
+      "equal_scene_metrics": {
+        "FN": 198.82,
+        "FP": 148.9,
+        "IDS": 22.58,
+        "MOTA": 0.22039435431580215,
+        "Recall": 0.6524920949280749,
+        "TP": 343.06,
+        "scene_count": 50,
+        "total_FN": 9941,
+        "total_FP": 7445,
+        "total_IDS": 1129
+      },
+      "guard_pass": true,
+      "max_distance_m": 4.0,
+      "min_bev_iou": 0.1,
+      "name": "d4p0_i0p1",
+      "result_path": "experiments/hceg_ablation_suite_20261013/outputs/review_response_20261109/nuscenes_gate_split_search/calibration/d4p0_i0p1"
+    },
+    {
+      "equal_scene_metrics": {
+        "FN": 198.78,
+        "FP": 148.92,
+        "IDS": 22.6,
+        "MOTA": 0.22038060227021952,
+        "Recall": 0.6525350594823177,
+        "TP": 343.1,
+        "scene_count": 50,
+        "total_FN": 9939,
+        "total_FP": 7446,
+        "total_IDS": 1130
+      },
+      "guard_pass": true,
+      "max_distance_m": 4.0,
+      "min_bev_iou": 0.1782,
+      "name": "d4p0_i0p1782",
+      "result_path": "experiments/hceg_ablation_suite_20261013/outputs/review_response_20261109/nuscenes_gate_split_search/calibration/d4p0_i0p1782"
+    },
+    {
+      "equal_scene_metrics": {
+        "FN": 198.64,
+        "FP": 148.62,
+        "IDS": 22.6,
+        "MOTA": 0.22119772908472504,
+        "Recall": 0.6528045013158916,
+        "TP": 343.24,
+        "scene_count": 50,
+        "total_FN": 9932,
+        "total_FP": 7431,
+        "total_IDS": 1130
+      },
+      "guard_pass": true,
+      "max_distance_m": 4.0,
+      "min_bev_iou": 0.22,
+      "name": "d4p0_i0p22",
+      "result_path": "experiments/hceg_ablation_suite_20261013/outputs/review_response_20261109/nuscenes_gate_split_search/calibration/d4p0_i0p22"
+    },
+    {
+      "equal_scene_metrics": {
+        "FN": 199.34,
+        "FP": 154.9,
+        "IDS": 19.38,
+        "MOTA": 0.20155729104774844,
+        "Recall": 0.6558098139220491,
+        "TP": 342.54,
+        "scene_count": 50,
+        "total_FN": 9967,
+        "total_FP": 7745,
+        "total_IDS": 969
+      },
+      "guard_pass": false,
+      "max_distance_m": 4.5,
+      "min_bev_iou": 0.15,
+      "name": "d4p5_i0p15",
+      "result_path": "experiments/hceg_ablation_suite_20261013/outputs/review_response_20261109/nuscenes_gate_split_search/calibration/d4p5_i0p15"
+    }
+  ],
+  "fixed_gate_calibration_metrics": {
+    "FN": 201.96,
+    "FP": 141.18,
+    "IDS": 29.04,
+    "MOTA": 0.21774838234412275,
+    "Recall": 0.6449301202746102,
+    "TP": 339.92,
+    "scene_count": 50,
+    "total_FN": 10098,
+    "total_FP": 7059,
+    "total_IDS": 1452
+  },
+  "fixed_gate_holdout_metrics": {
+    "FN": 183.31,
+    "FP": 146.0,
+    "IDS": 31.17,
+    "MOTA": 0.28776517610614194,
+    "Recall": 0.6637795080830198,
+    "TP": 345.79,
+    "scene_count": 100,
+    "total_FN": 18331,
+    "total_FP": 14600,
+    "total_IDS": 3117
+  },
+  "holdout_scene_count": 100,
+  "no_gate_calibration_metrics": {
+    "FN": 197.26,
+    "FP": 230.32,
+    "IDS": 28.5,
+    "MOTA": -0.0649758927900086,
+    "Recall": 0.6559357105189726,
+    "TP": 344.62,
+    "scene_count": 50,
+    "total_FN": 9863,
+    "total_FP": 11516,
+    "total_IDS": 1425
+  },
+  "nuScenes_scene_split_manifest": "experiments/hceg_ablation_suite_20261013/outputs/review_response_20261109/nuscenes_gate_split_search/split_and_candidate_manifest.json",
+  "protected_after": {
+    "legacy_snapshot": {
+      "missing_legacy_paths": {
+        "paper_v6": "paper/202608_ODE_ICRA_v6.tex"
+      },
+      "sha256": {
+        "design_spec": "dc79507da24d8f80bcd45833b035753223528682478c0e449573f63f615f0647",
+        "formal_config": "4689dbf092241b412efca7bc1b2060d9ed959cbbbe625447b9f95f6f8ab76b46",
+        "formal_weight": "320a1a69b2ef91c52b55d579039a6c8f2bf4fea61e1a751e40b6ee626e929917",
+        "hceg_logic": "2dabbdf74cebaca8289548223ad78280d67e9422f07f43b191131af89f412ea3",
+        "hceg_patch": "e8e49b2be861d635079b3407ab5037a6fdb28680ac0afc06381ad8e6402916dd",
+        "kopt4_result": "4a7e6ae6bac438223591b0560bd47c73d6db59ea95e8faa7798c2fb3ac48583e",
+        "predictor_runtime": "e18699cc2890418ce2d833754e34750778d9e643a5bbaba711ebab5769d42631",
+        "production_tracker": "8e1c7e5a4073ca054b8dbed9bdecbaa7d5a4a6d3470b279455342ca1f0a975f5"
+      }
+    },
+    "sha256": {
+      "calibration_runner": "5d042d3d85357f1d9a66c6e13427e15fb312e9b035806d0ed4f1718c164c5aa7",
+      "frozen_gate": "2dabbdf74cebaca8289548223ad78280d67e9422f07f43b191131af89f412ea3",
+      "frozen_patch": "e8e49b2be861d635079b3407ab5037a6fdb28680ac0afc06381ad8e6402916dd",
+      "gate_selection_manifest": "3282836e24029d7395ca5ad5544ea3eb95b9896e0bb0f420587c92714104ce97",
+      "motion_candidate_log": "08c61141977151aa7897ff1c1dee8ecfb203356295b03cb93b13d96a1579f17d",
+      "production_tracker": "8e1c7e5a4073ca054b8dbed9bdecbaa7d5a4a6d3470b279455342ca1f0a975f5",
+      "selection_manifest": "3294e0ff2139823d0f89ce9e0c1f6204c258348c0f89e6b7dba99d9d7a54959c"
+    }
+  },
+  "protected_before": {
+    "legacy_snapshot": {
+      "missing_legacy_paths": {
+        "paper_v6": "paper/202608_ODE_ICRA_v6.tex"
+      },
+      "sha256": {
+        "design_spec": "dc79507da24d8f80bcd45833b035753223528682478c0e449573f63f615f0647",
+        "formal_config": "4689dbf092241b412efca7bc1b2060d9ed959cbbbe625447b9f95f6f8ab76b46",
+        "formal_weight": "320a1a69b2ef91c52b55d579039a6c8f2bf4fea61e1a751e40b6ee626e929917",
+        "hceg_logic": "2dabbdf74cebaca8289548223ad78280d67e9422f07f43b191131af89f412ea3",
+        "hceg_patch": "e8e49b2be861d635079b3407ab5037a6fdb28680ac0afc06381ad8e6402916dd",
+        "kopt4_result": "4a7e6ae6bac438223591b0560bd47c73d6db59ea95e8faa7798c2fb3ac48583e",
+        "predictor_runtime": "e18699cc2890418ce2d833754e34750778d9e643a5bbaba711ebab5769d42631",
+        "production_tracker": "8e1c7e5a4073ca054b8dbed9bdecbaa7d5a4a6d3470b279455342ca1f0a975f5"
+      }
+    },
+    "sha256": {
+      "calibration_runner": "5d042d3d85357f1d9a66c6e13427e15fb312e9b035806d0ed4f1718c164c5aa7",
+      "frozen_gate": "2dabbdf74cebaca8289548223ad78280d67e9422f07f43b191131af89f412ea3",
+      "frozen_patch": "e8e49b2be861d635079b3407ab5037a6fdb28680ac0afc06381ad8e6402916dd",
+      "gate_selection_manifest": "3282836e24029d7395ca5ad5544ea3eb95b9896e0bb0f420587c92714104ce97",
+      "motion_candidate_log": "08c61141977151aa7897ff1c1dee8ecfb203356295b03cb93b13d96a1579f17d",
+      "production_tracker": "8e1c7e5a4073ca054b8dbed9bdecbaa7d5a4a6d3470b279455342ca1f0a975f5",
+      "selection_manifest": "3294e0ff2139823d0f89ce9e0c1f6204c258348c0f89e6b7dba99d9d7a54959c"
+    }
+  },
+  "protocol": "m122 full runtime; same CenterPoint detections, native 2 Hz, symmetric cap-1, custom CLEAR-MOT for threshold calibration and held-out report",
+  "selected_candidate": {
+    "equal_scene_metrics": {
+      "FN": 200.48,
+      "FP": 133.84,
+      "IDS": 21.14,
+      "MOTA": 0.24985030582979362,
+      "Recall": 0.6484917185835516,
+      "TP": 341.4,
+      "scene_count": 50,
+      "total_FN": 10024,
+      "total_FP": 6692,
+      "total_IDS": 1057
+    },
+    "guard_pass": true,
+    "max_distance_m": 2.5,
+    "min_bev_iou": 0.1,
+    "name": "d2p5_i0p1",
+    "result_path": "experiments/hceg_ablation_suite_20261013/outputs/review_response_20261109/nuscenes_gate_split_search/calibration/d2p5_i0p1"
+  },
+  "selected_holdout_delta_vs_fixed_gate": {
+    "IDS": -7.020000000000003,
+    "MOTA": 0.041905680561413416,
+    "Recall": 0.0013060311212544917
+  },
+  "selected_holdout_metrics": {
+    "FN": 182.15,
+    "FP": 139.2,
+    "IDS": 24.15,
+    "MOTA": 0.32967085666755536,
+    "Recall": 0.6650855392042743,
+    "TP": 346.95,
+    "scene_count": 100,
+    "total_FN": 18215,
+    "total_FP": 13920,
+    "total_IDS": 2415
+  },
+  "status": "completed"
+}

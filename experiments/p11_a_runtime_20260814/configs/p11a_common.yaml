@@ -1,0 +1,26 @@
+_BASE_CONFIG_: config/global/casa_p0_v0.yaml
+tracking_type: Car
+motion_model: P11
+LiDAR_scanning_frequency: 10
+fixed_max_miss: true
+prediction_emit_cap: 1
+eligible_association: true
+association_actual_gap_velocity: true
+association_lambda_vel: 0.0
+association_lambda_iou: 0.3
+association_match_threshold: 7.0
+update_score: 0.5
+motion_observer_mode: robust_history
+motion_history_window: 4
+motion_history_min_samples: 3
+deployed_trapezoidal_helper: false
+cv_gap_prediction: false
+adaptive_prediction_fusion: false
+write_provenance: true
+frame_ids_from_detections: true
+p11_kf_process_noise: 0.10
+p11_kf_measurement_noise: 0.05
+p11_kf_initial_position_variance: 1.0
+p11_kf_initial_velocity_variance: 4.0
+p11_imm_transition: [[0.95, 0.05], [0.05, 0.95]]
+p11_mlp_weight: ''

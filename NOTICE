@@ -1,0 +1,6 @@
+PairGate3D
+
+The tracker shell derives from hailanyi/3D-Multi-Object-Tracker (Apache-2.0).
+The accompanying LICENSE retains the upstream license. Modified tracking, gating, runtime,
+and experiment files are identified in provenance/source_manifest.json.
+TrackEval is vendored under third_party/TrackEval with its upstream license.

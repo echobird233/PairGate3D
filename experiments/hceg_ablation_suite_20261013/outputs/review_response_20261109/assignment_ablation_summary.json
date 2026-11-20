@@ -1,0 +1,720 @@
+{
+  "design": "2x2: assignment={single global,two-stage}; gate={off,selected all-active joint on}",
+  "effects": {
+    "casa": {
+      "AssA": {
+        "assignment_effect_gate_off_sequence_equal": -0.056755196620495045,
+        "assignment_effect_gate_on_sequence_equal": -0.009790153357791744,
+        "gate_effect_single_stage_sequence_equal": 0.7703348186055763,
+        "gate_effect_two_stage_sequence_equal": 0.8172998618682796,
+        "interaction_sequence_bootstrap_95": {
+          "lower_95": 0.0,
+          "mean": 0.0469650432627033,
+          "samples": 10000,
+          "seed": 2027,
+          "upper_95": 0.14089512978810992
+        },
+        "interaction_sequence_equal": 0.0469650432627033
+      },
+      "FN": {
+        "assignment_effect_gate_off_sequence_equal": 0.18181818181818182,
+        "assignment_effect_gate_on_sequence_equal": 0.0,
+        "gate_effect_single_stage_sequence_equal": -0.7272727272727273,
+        "gate_effect_two_stage_sequence_equal": -0.9090909090909091,
+        "interaction_sequence_bootstrap_95": {
+          "lower_95": -0.5454545454545454,
+          "mean": -0.18181818181818182,
+          "samples": 10000,
+          "seed": 2027,
+          "upper_95": 0.0
+        },
+        "interaction_sequence_equal": -0.18181818181818182
+      },
+      "FP": {
+        "assignment_effect_gate_off_sequence_equal": 0.0,
+        "assignment_effect_gate_on_sequence_equal": 0.18181818181818182,
+        "gate_effect_single_stage_sequence_equal": -2.1818181818181817,
+        "gate_effect_two_stage_sequence_equal": -2.0,
+        "interaction_sequence_bootstrap_95": {
+          "lower_95": -0.5454545454545454,
+          "mean": 0.18181818181818182,
+          "samples": 10000,
+          "seed": 2027,
+          "upper_95": 1.0909090909090908
+        },
+        "interaction_sequence_equal": 0.18181818181818182
+      },
+      "HOTA": {
+        "assignment_effect_gate_off_sequence_equal": -0.045095814164218435,
+        "assignment_effect_gate_on_sequence_equal": -0.007446744362569161,
+        "gate_effect_single_stage_sequence_equal": 0.673956445354613,
+        "gate_effect_two_stage_sequence_equal": 0.7116055151562622,
+        "interaction_sequence_bootstrap_95": {
+          "lower_95": 0.0,
+          "mean": 0.037649069801649275,
+          "samples": 10000,
+          "seed": 2027,
+          "upper_95": 0.10044014152181675
+        },
+        "interaction_sequence_equal": 0.037649069801649275
+      },
+      "IDSW": {
+        "assignment_effect_gate_off_sequence_equal": 0.45454545454545453,
+        "assignment_effect_gate_on_sequence_equal": 0.09090909090909091,
+        "gate_effect_single_stage_sequence_equal": -0.36363636363636365,
+        "gate_effect_two_stage_sequence_equal": -0.7272727272727273,
+        "interaction_sequence_bootstrap_95": {
+          "lower_95": -1.0909090909090908,
+          "mean": -0.36363636363636365,
+          "samples": 10000,
+          "seed": 2027,
+          "upper_95": 0.0
+        },
+        "interaction_sequence_equal": -0.36363636363636365
+      },
+      "MOTA": {
+        "assignment_effect_gate_off_sequence_equal": -0.03488514033165044,
+        "assignment_effect_gate_on_sequence_equal": -0.012003841229194089,
+        "gate_effect_single_stage_sequence_equal": 1.6550176219405586,
+        "gate_effect_two_stage_sequence_equal": 1.6778989210430149,
+        "interaction_sequence_bootstrap_95": {
+          "lower_95": 0.0,
+          "mean": 0.022881299102456346,
+          "samples": 10000,
+          "seed": 2027,
+          "upper_95": 0.05951495313197794
+        },
+        "interaction_sequence_equal": 0.022881299102456346
+      }
+    },
+    "point-rcnn": {
+      "AssA": {
+        "assignment_effect_gate_off_sequence_equal": 0.08081693188146359,
+        "assignment_effect_gate_on_sequence_equal": 0.006397082704123394,
+        "gate_effect_single_stage_sequence_equal": 8.691122481391096,
+        "gate_effect_two_stage_sequence_equal": 8.616702632213757,
+        "interaction_sequence_bootstrap_95": {
+          "lower_95": -1.400244527701902,
+          "mean": -0.0744198491773402,
+          "samples": 10000,
+          "seed": 2027,
+          "upper_95": 1.1253515525975288
+        },
+        "interaction_sequence_equal": -0.0744198491773402
+      },
+      "FN": {
+        "assignment_effect_gate_off_sequence_equal": 4.090909090909091,
+        "assignment_effect_gate_on_sequence_equal": 0.0,
+        "gate_effect_single_stage_sequence_equal": -2.3636363636363638,
+        "gate_effect_two_stage_sequence_equal": -6.454545454545454,
+        "interaction_sequence_bootstrap_95": {
+          "lower_95": -7.181818181818182,
+          "mean": -4.090909090909091,
+          "samples": 10000,
+          "seed": 2027,
+          "upper_95": -1.4545454545454546
+        },
+        "interaction_sequence_equal": -4.090909090909091
+      },
+      "FP": {
+        "assignment_effect_gate_off_sequence_equal": -3.090909090909091,
+        "assignment_effect_gate_on_sequence_equal": -0.09090909090909091,
+        "gate_effect_single_stage_sequence_equal": -28.09090909090909,
+        "gate_effect_two_stage_sequence_equal": -25.09090909090909,
+        "interaction_sequence_bootstrap_95": {
+          "lower_95": 0.0,
+          "mean": 3.0,
+          "samples": 10000,
+          "seed": 2027,
+          "upper_95": 6.7272727272727275
+        },
+        "interaction_sequence_equal": 3.0
+      },
+      "HOTA": {
+        "assignment_effect_gate_off_sequence_equal": 0.057139941819403746,
+        "assignment_effect_gate_on_sequence_equal": 0.004149299114429668,
+        "gate_effect_single_stage_sequence_equal": 5.630571818798834,
+        "gate_effect_two_stage_sequence_equal": 5.57758117609386,
+        "interaction_sequence_bootstrap_95": {
+          "lower_95": -0.7754708380832052,
+          "mean": -0.052990642704974084,
+          "samples": 10000,
+          "seed": 2027,
+          "upper_95": 0.6064545088841156
+        },
+        "interaction_sequence_equal": -0.052990642704974084
+      },
+      "IDSW": {
+        "assignment_effect_gate_off_sequence_equal": -1.0,
+        "assignment_effect_gate_on_sequence_equal": 0.0,
+        "gate_effect_single_stage_sequence_equal": -5.7272727272727275,
+        "gate_effect_two_stage_sequence_equal": -4.7272727272727275,
+        "interaction_sequence_bootstrap_95": {
+          "lower_95": -0.8181818181818182,
+          "mean": 1.0,
+          "samples": 10000,
+          "seed": 2027,
+          "upper_95": 3.5454545454545454
+        },
+        "interaction_sequence_equal": 1.0
+      },
+      "MOTA": {
+        "assignment_effect_gate_off_sequence_equal": -0.04694076224851267,
+        "assignment_effect_gate_on_sequence_equal": 0.004001280409732224,
+        "gate_effect_single_stage_sequence_equal": 12.513560855156625,
+        "gate_effect_two_stage_sequence_equal": 12.564502897814869,
+        "interaction_sequence_bootstrap_95": {
+          "lower_95": -0.2709920301287493,
+          "mean": 0.050942042658244896,
+          "samples": 10000,
+          "seed": 2027,
+          "upper_95": 0.38270235243000245
+        },
+        "interaction_sequence_equal": 0.050942042658244896
+      }
+    },
+    "pvrcnn": {
+      "AssA": {
+        "assignment_effect_gate_off_sequence_equal": 0.8342879651991821,
+        "assignment_effect_gate_on_sequence_equal": -0.07342456242510309,
+        "gate_effect_single_stage_sequence_equal": 2.9294062715323594,
+        "gate_effect_two_stage_sequence_equal": 2.021693743908074,
+        "interaction_sequence_bootstrap_95": {
+          "lower_95": -2.8602132631112793,
+          "mean": -0.9077125276242852,
+          "samples": 10000,
+          "seed": 2027,
+          "upper_95": 0.3991436762186218
+        },
+        "interaction_sequence_equal": -0.9077125276242852
+      },
+      "FN": {
+        "assignment_effect_gate_off_sequence_equal": 0.45454545454545453,
+        "assignment_effect_gate_on_sequence_equal": 0.18181818181818182,
+        "gate_effect_single_stage_sequence_equal": -2.5454545454545454,
+        "gate_effect_two_stage_sequence_equal": -2.8181818181818183,
+        "interaction_sequence_bootstrap_95": {
+          "lower_95": -1.1818181818181819,
+          "mean": -0.2727272727272727,
+          "samples": 10000,
+          "seed": 2027,
+          "upper_95": 0.45454545454545453
+        },
+        "interaction_sequence_equal": -0.2727272727272727
+      },
+      "FP": {
+        "assignment_effect_gate_off_sequence_equal": -3.8181818181818183,
+        "assignment_effect_gate_on_sequence_equal": -0.18181818181818182,
+        "gate_effect_single_stage_sequence_equal": -27.90909090909091,
+        "gate_effect_two_stage_sequence_equal": -24.272727272727273,
+        "interaction_sequence_bootstrap_95": {
+          "lower_95": 0.2727272727272727,
+          "mean": 3.6363636363636362,
+          "samples": 10000,
+          "seed": 2027,
+          "upper_95": 7.7272727272727275
+        },
+        "interaction_sequence_equal": 3.6363636363636362
+      },
+      "HOTA": {
+        "assignment_effect_gate_off_sequence_equal": 0.46590168131915016,
+        "assignment_effect_gate_on_sequence_equal": -0.03442461556463818,
+        "gate_effect_single_stage_sequence_equal": 2.7086394555805158,
+        "gate_effect_two_stage_sequence_equal": 2.2083131586967273,
+        "interaction_sequence_bootstrap_95": {
+          "lower_95": -1.451845196593471,
+          "mean": -0.5003262968837884,
+          "samples": 10000,
+          "seed": 2027,
+          "upper_95": 0.1296682232227097
+        },
+        "interaction_sequence_equal": -0.5003262968837884
+      },
+      "IDSW": {
+        "assignment_effect_gate_off_sequence_equal": 0.0,
+        "assignment_effect_gate_on_sequence_equal": 0.45454545454545453,
+        "gate_effect_single_stage_sequence_equal": -2.0,
+        "gate_effect_two_stage_sequence_equal": -1.5454545454545454,
+        "interaction_sequence_bootstrap_95": {
+          "lower_95": -0.6363636363636364,
+          "mean": 0.45454545454545453,
+          "samples": 10000,
+          "seed": 2027,
+          "upper_95": 1.4545454545454546
+        },
+        "interaction_sequence_equal": 0.45454545454545453
+      },
+      "MOTA": {
+        "assignment_effect_gate_off_sequence_equal": 0.3157534527599895,
+        "assignment_effect_gate_on_sequence_equal": -0.01656831331689029,
+        "gate_effect_single_stage_sequence_equal": 18.046923888677153,
+        "gate_effect_two_stage_sequence_equal": 17.714602122600272,
+        "interaction_sequence_bootstrap_95": {
+          "lower_95": -0.6270858171504928,
+          "mean": -0.3323217660768798,
+          "samples": 10000,
+          "seed": 2027,
+          "upper_95": -0.07867826954762465
+        },
+        "interaction_sequence_equal": -0.3323217660768798
+      }
+    },
+    "second-iou": {
+      "AssA": {
+        "assignment_effect_gate_off_sequence_equal": 0.0,
+        "assignment_effect_gate_on_sequence_equal": 0.0,
+        "gate_effect_single_stage_sequence_equal": 1.2797251690769955,
+        "gate_effect_two_stage_sequence_equal": 1.2797251690769955,
+        "interaction_sequence_bootstrap_95": {
+          "lower_95": 0.0,
+          "mean": 0.0,
+          "samples": 10000,
+          "seed": 2027,
+          "upper_95": 0.0
+        },
+        "interaction_sequence_equal": 0.0
+      },
+      "FN": {
+        "assignment_effect_gate_off_sequence_equal": 0.0,
+        "assignment_effect_gate_on_sequence_equal": 0.0,
+        "gate_effect_single_stage_sequence_equal": -2.090909090909091,
+        "gate_effect_two_stage_sequence_equal": -2.090909090909091,
+        "interaction_sequence_bootstrap_95": {
+          "lower_95": 0.0,
+          "mean": 0.0,
+          "samples": 10000,
+          "seed": 2027,
+          "upper_95": 0.0
+        },
+        "interaction_sequence_equal": 0.0
+      },
+      "FP": {
+        "assignment_effect_gate_off_sequence_equal": 0.0,
+        "assignment_effect_gate_on_sequence_equal": 0.0,
+        "gate_effect_single_stage_sequence_equal": -1.8181818181818181,
+        "gate_effect_two_stage_sequence_equal": -1.8181818181818181,
+        "interaction_sequence_bootstrap_95": {
+          "lower_95": 0.0,
+          "mean": 0.0,
+          "samples": 10000,
+          "seed": 2027,
+          "upper_95": 0.0
+        },
+        "interaction_sequence_equal": 0.0
+      },
+      "HOTA": {
+        "assignment_effect_gate_off_sequence_equal": 0.0,
+        "assignment_effect_gate_on_sequence_equal": 0.0,
+        "gate_effect_single_stage_sequence_equal": 0.6696122599370959,
+        "gate_effect_two_stage_sequence_equal": 0.6696122599370959,
+        "interaction_sequence_bootstrap_95": {
+          "lower_95": 0.0,
+          "mean": 0.0,
+          "samples": 10000,
+          "seed": 2027,
+          "upper_95": 0.0
+        },
+        "interaction_sequence_equal": 0.0
+      },
+      "IDSW": {
+        "assignment_effect_gate_off_sequence_equal": 0.0,
+        "assignment_effect_gate_on_sequence_equal": 0.0,
+        "gate_effect_single_stage_sequence_equal": 0.18181818181818182,
+        "gate_effect_two_stage_sequence_equal": 0.18181818181818182,
+        "interaction_sequence_bootstrap_95": {
+          "lower_95": 0.0,
+          "mean": 0.0,
+          "samples": 10000,
+          "seed": 2027,
+          "upper_95": 0.0
+        },
+        "interaction_sequence_equal": 0.0
+      },
+      "MOTA": {
+        "assignment_effect_gate_off_sequence_equal": 0.0,
+        "assignment_effect_gate_on_sequence_equal": 0.0,
+        "gate_effect_single_stage_sequence_equal": -0.10716246171137879,
+        "gate_effect_two_stage_sequence_equal": -0.10716246171137879,
+        "interaction_sequence_bootstrap_95": {
+          "lower_95": 0.0,
+          "mean": 0.0,
+          "samples": 10000,
+          "seed": 2027,
+          "upper_95": 0.0
+        },
+        "interaction_sequence_equal": 0.0
+      }
+    },
+    "virconv": {
+      "AssA": {
+        "assignment_effect_gate_off_sequence_equal": 0.030586999551220826,
+        "assignment_effect_gate_on_sequence_equal": 0.0,
+        "gate_effect_single_stage_sequence_equal": 1.2758155034765908,
+        "gate_effect_two_stage_sequence_equal": 1.24522850392537,
+        "interaction_sequence_bootstrap_95": {
+          "lower_95": -0.0735152585748696,
+          "mean": -0.030586999551220826,
+          "samples": 10000,
+          "seed": 2027,
+          "upper_95": 0.0
+        },
+        "interaction_sequence_equal": -0.030586999551220826
+      },
+      "FN": {
+        "assignment_effect_gate_off_sequence_equal": 0.18181818181818182,
+        "assignment_effect_gate_on_sequence_equal": 0.0,
+        "gate_effect_single_stage_sequence_equal": -0.09090909090909091,
+        "gate_effect_two_stage_sequence_equal": -0.2727272727272727,
+        "interaction_sequence_bootstrap_95": {
+          "lower_95": -0.5454545454545454,
+          "mean": -0.18181818181818182,
+          "samples": 10000,
+          "seed": 2027,
+          "upper_95": 0.0
+        },
+        "interaction_sequence_equal": -0.18181818181818182
+      },
+      "FP": {
+        "assignment_effect_gate_off_sequence_equal": -0.45454545454545453,
+        "assignment_effect_gate_on_sequence_equal": 0.0,
+        "gate_effect_single_stage_sequence_equal": -4.7272727272727275,
+        "gate_effect_two_stage_sequence_equal": -4.2727272727272725,
+        "interaction_sequence_bootstrap_95": {
+          "lower_95": 0.0,
+          "mean": 0.45454545454545453,
+          "samples": 10000,
+          "seed": 2027,
+          "upper_95": 1.1818181818181819
+        },
+        "interaction_sequence_equal": 0.45454545454545453
+      },
+      "HOTA": {
+        "assignment_effect_gate_off_sequence_equal": 0.02202248404000138,
+        "assignment_effect_gate_on_sequence_equal": 0.0,
+        "gate_effect_single_stage_sequence_equal": 0.8922282435763588,
+        "gate_effect_two_stage_sequence_equal": 0.8702057595363574,
+        "interaction_sequence_bootstrap_95": {
+          "lower_95": -0.05839450357910762,
+          "mean": -0.02202248404000138,
+          "samples": 10000,
+          "seed": 2027,
+          "upper_95": 0.0
+        },
+        "interaction_sequence_equal": -0.02202248404000138
+      },
+      "IDSW": {
+        "assignment_effect_gate_off_sequence_equal": 0.18181818181818182,
+        "assignment_effect_gate_on_sequence_equal": 0.0,
+        "gate_effect_single_stage_sequence_equal": -0.2727272727272727,
+        "gate_effect_two_stage_sequence_equal": -0.45454545454545453,
+        "interaction_sequence_bootstrap_95": {
+          "lower_95": -0.5454545454545454,
+          "mean": -0.18181818181818182,
+          "samples": 10000,
+          "seed": 2027,
+          "upper_95": 0.0
+        },
+        "interaction_sequence_equal": -0.18181818181818182
+      },
+      "MOTA": {
+        "assignment_effect_gate_off_sequence_equal": 0.022119000221189046,
+        "assignment_effect_gate_on_sequence_equal": 0.0,
+        "gate_effect_single_stage_sequence_equal": 3.171864246871354,
+        "gate_effect_two_stage_sequence_equal": 3.1497452466501645,
+        "interaction_sequence_bootstrap_95": {
+          "lower_95": -0.06635700066356714,
+          "mean": -0.022119000221189046,
+          "samples": 10000,
+          "seed": 2027,
+          "upper_95": 0.0
+        },
+        "interaction_sequence_equal": -0.022119000221189046
+      }
+    }
+  },
+  "phase": "assignment_ablation",
+  "protected_after": {
+    "legacy_snapshot": {
+      "missing_legacy_paths": {
+        "paper_v6": "paper/202608_ODE_ICRA_v6.tex"
+      },
+      "sha256": {
+        "design_spec": "dc79507da24d8f80bcd45833b035753223528682478c0e449573f63f615f0647",
+        "formal_config": "4689dbf092241b412efca7bc1b2060d9ed959cbbbe625447b9f95f6f8ab76b46",
+        "formal_weight": "320a1a69b2ef91c52b55d579039a6c8f2bf4fea61e1a751e40b6ee626e929917",
+        "hceg_logic": "2dabbdf74cebaca8289548223ad78280d67e9422f07f43b191131af89f412ea3",
+        "hceg_patch": "e8e49b2be861d635079b3407ab5037a6fdb28680ac0afc06381ad8e6402916dd",
+        "kopt4_result": "4a7e6ae6bac438223591b0560bd47c73d6db59ea95e8faa7798c2fb3ac48583e",
+        "predictor_runtime": "e18699cc2890418ce2d833754e34750778d9e643a5bbaba711ebab5769d42631",
+        "production_tracker": "8e1c7e5a4073ca054b8dbed9bdecbaa7d5a4a6d3470b279455342ca1f0a975f5"
+      }
+    },
+    "sha256": {
+      "calibration_runner": "5d042d3d85357f1d9a66c6e13427e15fb312e9b035806d0ed4f1718c164c5aa7",
+      "frozen_gate": "2dabbdf74cebaca8289548223ad78280d67e9422f07f43b191131af89f412ea3",
+      "frozen_patch": "e8e49b2be861d635079b3407ab5037a6fdb28680ac0afc06381ad8e6402916dd",
+      "gate_selection_manifest": "3282836e24029d7395ca5ad5544ea3eb95b9896e0bb0f420587c92714104ce97",
+      "motion_candidate_log": "08c61141977151aa7897ff1c1dee8ecfb203356295b03cb93b13d96a1579f17d",
+      "production_tracker": "8e1c7e5a4073ca054b8dbed9bdecbaa7d5a4a6d3470b279455342ca1f0a975f5",
+      "selection_manifest": "3294e0ff2139823d0f89ce9e0c1f6204c258348c0f89e6b7dba99d9d7a54959c"
+    }
+  },
+  "protected_before": {
+    "legacy_snapshot": {
+      "missing_legacy_paths": {
+        "paper_v6": "paper/202608_ODE_ICRA_v6.tex"
+      },
+      "sha256": {
+        "design_spec": "dc79507da24d8f80bcd45833b035753223528682478c0e449573f63f615f0647",
+        "formal_config": "4689dbf092241b412efca7bc1b2060d9ed959cbbbe625447b9f95f6f8ab76b46",
+        "formal_weight": "320a1a69b2ef91c52b55d579039a6c8f2bf4fea61e1a751e40b6ee626e929917",
+        "hceg_logic": "2dabbdf74cebaca8289548223ad78280d67e9422f07f43b191131af89f412ea3",
+        "hceg_patch": "e8e49b2be861d635079b3407ab5037a6fdb28680ac0afc06381ad8e6402916dd",
+        "kopt4_result": "4a7e6ae6bac438223591b0560bd47c73d6db59ea95e8faa7798c2fb3ac48583e",
+        "predictor_runtime": "e18699cc2890418ce2d833754e34750778d9e643a5bbaba711ebab5769d42631",
+        "production_tracker": "8e1c7e5a4073ca054b8dbed9bdecbaa7d5a4a6d3470b279455342ca1f0a975f5"
+      }
+    },
+    "sha256": {
+      "calibration_runner": "5d042d3d85357f1d9a66c6e13427e15fb312e9b035806d0ed4f1718c164c5aa7",
+      "frozen_gate": "2dabbdf74cebaca8289548223ad78280d67e9422f07f43b191131af89f412ea3",
+      "frozen_patch": "e8e49b2be861d635079b3407ab5037a6fdb28680ac0afc06381ad8e6402916dd",
+      "gate_selection_manifest": "3282836e24029d7395ca5ad5544ea3eb95b9896e0bb0f420587c92714104ce97",
+      "motion_candidate_log": "08c61141977151aa7897ff1c1dee8ecfb203356295b03cb93b13d96a1579f17d",
+      "production_tracker": "8e1c7e5a4073ca054b8dbed9bdecbaa7d5a4a6d3470b279455342ca1f0a975f5",
+      "selection_manifest": "3294e0ff2139823d0f89ce9e0c1f6204c258348c0f89e6b7dba99d9d7a54959c"
+    }
+  },
+  "protocol": {
+    "detectors": [
+      "casa",
+      "point-rcnn",
+      "pvrcnn",
+      "second-iou",
+      "virconv"
+    ],
+    "eligible_detection_pool": "identical detector observations and score thresholds in every cell",
+    "parameters": {
+      "max_distance": 3.223,
+      "min_age": 1,
+      "min_iou": 0.1782,
+      "min_updates": 0
+    },
+    "sequences": [
+      1,
+      6,
+      8,
+      10,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      19
+    ]
+  },
+  "rows": [
+    {
+      "AssA": 82.09742185523098,
+      "FN": 456,
+      "FP": 613,
+      "HOTA": 80.43585152736874,
+      "IDSW": 22,
+      "MOTA": 86.97935314476668,
+      "cell": "two_stage_off",
+      "detector": "casa"
+    },
+    {
+      "AssA": 83.81437911440968,
+      "FN": 446,
+      "FP": 591,
+      "HOTA": 81.46741559014905,
+      "IDSW": 14,
+      "MOTA": 87.45673708079723,
+      "cell": "two_stage_on",
+      "detector": "casa"
+    },
+    {
+      "AssA": 82.26714152872138,
+      "FN": 454,
+      "FP": 613,
+      "HOTA": 80.56453481875975,
+      "IDSW": 17,
+      "MOTA": 87.06289533357202,
+      "cell": "single_stage_off",
+      "detector": "casa"
+    },
+    {
+      "AssA": 83.84481624066427,
+      "FN": 446,
+      "FP": 589,
+      "HOTA": 81.49121958380152,
+      "IDSW": 13,
+      "MOTA": 87.49254087599952,
+      "cell": "single_stage_on",
+      "detector": "casa"
+    },
+    {
+      "AssA": 69.65537727476772,
+      "FN": 715,
+      "FP": 1317,
+      "HOTA": 68.62565661113281,
+      "IDSW": 65,
+      "MOTA": 74.97314715359829,
+      "cell": "two_stage_off",
+      "detector": "point-rcnn"
+    },
+    {
+      "AssA": 78.94541134996508,
+      "FN": 644,
+      "FP": 1041,
+      "HOTA": 74.38218695429883,
+      "IDSW": 13,
+      "MOTA": 79.73505191550304,
+      "cell": "two_stage_on",
+      "detector": "point-rcnn"
+    },
+    {
+      "AssA": 69.05846505386968,
+      "FN": 670,
+      "FP": 1351,
+      "HOTA": 68.31976768369442,
+      "IDSW": 76,
+      "MOTA": 74.97314715359829,
+      "cell": "single_stage_off",
+      "detector": "point-rcnn"
+    },
+    {
+      "AssA": 78.92575274240414,
+      "FN": 644,
+      "FP": 1042,
+      "HOTA": 74.36889189259425,
+      "IDSW": 13,
+      "MOTA": 79.72311731710228,
+      "cell": "single_stage_on",
+      "detector": "point-rcnn"
+    },
+    {
+      "AssA": 76.44185780383935,
+      "FN": 645,
+      "FP": 1246,
+      "HOTA": 73.40980286798292,
+      "IDSW": 42,
+      "MOTA": 76.93042129132354,
+      "cell": "two_stage_off",
+      "detector": "pvrcnn"
+    },
+    {
+      "AssA": 80.74625592026858,
+      "FN": 614,
+      "FP": 979,
+      "HOTA": 76.64763272520443,
+      "IDSW": 25,
+      "MOTA": 80.68981978756415,
+      "cell": "two_stage_on",
+      "detector": "pvrcnn"
+    },
+    {
+      "AssA": 76.27457607763304,
+      "FN": 640,
+      "FP": 1288,
+      "HOTA": 73.2522223120164,
+      "IDSW": 42,
+      "MOTA": 76.48884115049529,
+      "cell": "single_stage_off",
+      "detector": "pvrcnn"
+    },
+    {
+      "AssA": 80.97445844513126,
+      "FN": 612,
+      "FP": 981,
+      "HOTA": 76.76049561626033,
+      "IDSW": 20,
+      "MOTA": 80.74949277956797,
+      "cell": "single_stage_on",
+      "detector": "pvrcnn"
+    },
+    {
+      "AssA": 77.79736560070559,
+      "FN": 1079,
+      "FP": 420,
+      "HOTA": 74.99979868190593,
+      "IDSW": 34,
+      "MOTA": 81.70426065162907,
+      "cell": "two_stage_off",
+      "detector": "second-iou"
+    },
+    {
+      "AssA": 79.15437298047206,
+      "FN": 1056,
+      "FP": 400,
+      "HOTA": 75.84243341915379,
+      "IDSW": 36,
+      "MOTA": 82.19357918606039,
+      "cell": "two_stage_on",
+      "detector": "second-iou"
+    },
+    {
+      "AssA": 77.79736560070559,
+      "FN": 1079,
+      "FP": 420,
+      "HOTA": 74.99979868190593,
+      "IDSW": 34,
+      "MOTA": 81.70426065162907,
+      "cell": "single_stage_off",
+      "detector": "second-iou"
+    },
+    {
+      "AssA": 79.15437298047206,
+      "FN": 1056,
+      "FP": 400,
+      "HOTA": 75.84243341915379,
+      "IDSW": 36,
+      "MOTA": 82.19357918606039,
+      "cell": "single_stage_on",
+      "detector": "second-iou"
+    },
+    {
+      "AssA": 83.32341546063383,
+      "FN": 385,
+      "FP": 665,
+      "HOTA": 82.29109172512217,
+      "IDSW": 15,
+      "MOTA": 87.28965270318653,
+      "cell": "two_stage_off",
+      "detector": "virconv"
+    },
+    {
+      "AssA": 84.49262083119305,
+      "FN": 382,
+      "FP": 618,
+      "HOTA": 83.12754297960078,
+      "IDSW": 10,
+      "MOTA": 87.94605561522854,
+      "cell": "two_stage_on",
+      "detector": "virconv"
+    },
+    {
+      "AssA": 83.28417940997399,
+      "FN": 383,
+      "FP": 670,
+      "HOTA": 82.26845622325001,
+      "IDSW": 13,
+      "MOTA": 87.27771810478578,
+      "cell": "single_stage_off",
+      "detector": "virconv"
+    },
+    {
+      "AssA": 84.49262083119305,
+      "FN": 382,
+      "FP": 618,
+      "HOTA": 83.12754297960078,
+      "IDSW": 10,
+      "MOTA": 87.94605561522854,
+      "cell": "single_stage_on",
+      "detector": "virconv"
+    }
+  ],
+  "status": "completed"
+}

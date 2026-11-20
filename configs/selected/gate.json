@@ -1,0 +1,297 @@
+{
+  "candidate_count": 1026,
+  "created_at_utc": "2026-10-31T04:48:06.246764+00:00",
+  "full_pool_count": 105,
+  "phase": "gate",
+  "screen_completed": 1026,
+  "selected": {
+    "family": "no_maturity",
+    "mahalanobis_threshold": 3.689,
+    "max_distance": 3.223,
+    "min_age": 5,
+    "min_iou": 0.1782,
+    "min_updates": 5
+  },
+  "top_full_candidates": [
+    {
+      "candidate_id": "g0594_no_maturity_d3.223_o0.1782_u5_a5_full",
+      "gate": {
+        "family": "no_maturity",
+        "mahalanobis_threshold": 3.689,
+        "max_distance": 3.223,
+        "min_age": 5,
+        "min_iou": 0.1782,
+        "min_updates": 5
+      },
+      "mean_delta_hota": 0.9695709752820398,
+      "mean_on_hota": 63.82249550304492,
+      "min_detector_delta_hota": 0.3610433693272208
+    },
+    {
+      "candidate_id": "g0276_no_maturity_d3.283_o0.1531_u3_a9_full",
+      "gate": {
+        "family": "no_maturity",
+        "mahalanobis_threshold": 18.91,
+        "max_distance": 3.283,
+        "min_age": 9,
+        "min_iou": 0.1531,
+        "min_updates": 3
+      },
+      "mean_delta_hota": 0.9685024866783145,
+      "mean_on_hota": 63.8214270144412,
+      "min_detector_delta_hota": 0.3620046232250287
+    },
+    {
+      "candidate_id": "g0828_no_maturity_d2.991_o0.0346_u5_a1_full",
+      "gate": {
+        "family": "no_maturity",
+        "mahalanobis_threshold": 11.981,
+        "max_distance": 2.991,
+        "min_age": 1,
+        "min_iou": 0.0346,
+        "min_updates": 5
+      },
+      "mean_delta_hota": 0.9677493420286982,
+      "mean_on_hota": 63.820673869791584,
+      "min_detector_delta_hota": 0.3653546915232013
+    },
+    {
+      "candidate_id": "g0814_full_hceg_d3.25_o0.0747_u1_a1_full",
+      "gate": {
+        "family": "full_hceg",
+        "mahalanobis_threshold": 16.294,
+        "max_distance": 3.25,
+        "min_age": 1,
+        "min_iou": 0.0747,
+        "min_updates": 1
+      },
+      "mean_delta_hota": 0.966937328432337,
+      "mean_on_hota": 63.81986185619521,
+      "min_detector_delta_hota": 0.3639279474835755
+    },
+    {
+      "candidate_id": "g0996_no_maturity_d3.298_o0.1847_u2_a7_full",
+      "gate": {
+        "family": "no_maturity",
+        "mahalanobis_threshold": 2.151,
+        "max_distance": 3.298,
+        "min_age": 7,
+        "min_iou": 0.1847,
+        "min_updates": 2
+      },
+      "mean_delta_hota": 0.9655714202736612,
+      "mean_on_hota": 63.81849594803655,
+      "min_detector_delta_hota": 0.3620046232250287
+    },
+    {
+      "candidate_id": "g0474_no_maturity_d2.92_o0.1412_u7_a7_full",
+      "gate": {
+        "family": "no_maturity",
+        "mahalanobis_threshold": 21.808,
+        "max_distance": 2.92,
+        "min_age": 7,
+        "min_iou": 0.1412,
+        "min_updates": 7
+      },
+      "mean_delta_hota": 0.9628106325260776,
+      "mean_on_hota": 63.81573516028895,
+      "min_detector_delta_hota": 0.36823142637699746
+    },
+    {
+      "candidate_id": "g0348_no_maturity_d2.963_o0.1442_u7_a1_full",
+      "gate": {
+        "family": "no_maturity",
+        "mahalanobis_threshold": 22.229,
+        "max_distance": 2.963,
+        "min_age": 1,
+        "min_iou": 0.1442,
+        "min_updates": 7
+      },
+      "mean_delta_hota": 0.9623876748354684,
+      "mean_on_hota": 63.81531220259835,
+      "min_detector_delta_hota": 0.3643928932738465
+    },
+    {
+      "candidate_id": "g0656_distance_only_d2.734_o0.1094_u1_a1_full",
+      "gate": {
+        "family": "distance_only",
+        "mahalanobis_threshold": 22.538,
+        "max_distance": 2.734,
+        "min_age": 1,
+        "min_iou": 0.1094,
+        "min_updates": 1
+      },
+      "mean_delta_hota": 0.9613855575009618,
+      "mean_on_hota": 63.81431008526384,
+      "min_detector_delta_hota": 0.3681438984050782
+    },
+    {
+      "candidate_id": "g0888_no_maturity_d3.431_o0.1079_u6_a9_full",
+      "gate": {
+        "family": "no_maturity",
+        "mahalanobis_threshold": 22.558,
+        "max_distance": 3.431,
+        "min_age": 9,
+        "min_iou": 0.1079,
+        "min_updates": 6
+      },
+      "mean_delta_hota": 0.9587904218576757,
+      "mean_on_hota": 63.81171494962056,
+      "min_detector_delta_hota": 0.3639279474835755
+    },
+    {
+      "candidate_id": "g0144_no_maturity_d2.905_o0.1304_u7_a5_full",
+      "gate": {
+        "family": "no_maturity",
+        "mahalanobis_threshold": 11.827,
+        "max_distance": 2.905,
+        "min_age": 5,
+        "min_iou": 0.1304,
+        "min_updates": 7
+      },
+      "mean_delta_hota": 0.9586578207071226,
+      "mean_on_hota": 63.811582348470004,
+      "min_detector_delta_hota": 0.3643928932738465
+    },
+    {
+      "candidate_id": "g1008_no_maturity_d3.443_o0.1875_u3_a1_full",
+      "gate": {
+        "family": "no_maturity",
+        "mahalanobis_threshold": 22.67,
+        "max_distance": 3.443,
+        "min_age": 1,
+        "min_iou": 0.1875,
+        "min_updates": 3
+      },
+      "mean_delta_hota": 0.9584057570059663,
+      "mean_on_hota": 63.811330284768836,
+      "min_detector_delta_hota": 0.3620046232250287
+    },
+    {
+      "candidate_id": "g0374_distance_only_d3.421_o0.1294_u1_a2_full",
+      "gate": {
+        "family": "distance_only",
+        "mahalanobis_threshold": 4.706,
+        "max_distance": 3.421,
+        "min_age": 2,
+        "min_iou": 0.1294,
+        "min_updates": 1
+      },
+      "mean_delta_hota": 0.9580895106897479,
+      "mean_on_hota": 63.81101403845262,
+      "min_detector_delta_hota": 0.3620046232250287
+    },
+    {
+      "candidate_id": "g0714_no_maturity_d3.25_o0.1869_u8_a8_full",
+      "gate": {
+        "family": "no_maturity",
+        "mahalanobis_threshold": 7.546,
+        "max_distance": 3.25,
+        "min_age": 8,
+        "min_iou": 0.1869,
+        "min_updates": 8
+      },
+      "mean_delta_hota": 0.9580305165246941,
+      "mean_on_hota": 63.810955044287574,
+      "min_detector_delta_hota": 0.3610433693272208
+    },
+    {
+      "candidate_id": "g0978_no_maturity_d2.817_o0.1247_u8_a8_full",
+      "gate": {
+        "family": "no_maturity",
+        "mahalanobis_threshold": 11.139,
+        "max_distance": 2.817,
+        "min_age": 8,
+        "min_iou": 0.1247,
+        "min_updates": 8
+      },
+      "mean_delta_hota": 0.9550002785573289,
+      "mean_on_hota": 63.807924806320216,
+      "min_detector_delta_hota": 0.36182066344238883
+    },
+    {
+      "candidate_id": "g0384_no_maturity_d2.832_o0.1268_u1_a4_full",
+      "gate": {
+        "family": "no_maturity",
+        "mahalanobis_threshold": 11.492,
+        "max_distance": 2.832,
+        "min_age": 4,
+        "min_iou": 0.1268,
+        "min_updates": 1
+      },
+      "mean_delta_hota": 0.9544424599414972,
+      "mean_on_hota": 63.807366987704384,
+      "min_detector_delta_hota": 0.36182066344238883
+    },
+    {
+      "candidate_id": "g0216_no_maturity_d3.365_o0.1566_u4_a8_full",
+      "gate": {
+        "family": "no_maturity",
+        "mahalanobis_threshold": 20.361,
+        "max_distance": 3.365,
+        "min_age": 8,
+        "min_iou": 0.1566,
+        "min_updates": 4
+      },
+      "mean_delta_hota": 0.9518736005339867,
+      "mean_on_hota": 63.804798128296866,
+      "min_detector_delta_hota": 0.3620046232250287
+    },
+    {
+      "candidate_id": "g0134_distance_only_d2.431_o0.0129_u1_a1_full",
+      "gate": {
+        "family": "distance_only",
+        "mahalanobis_threshold": 10.286,
+        "max_distance": 2.431,
+        "min_age": 1,
+        "min_iou": 0.0129,
+        "min_updates": 1
+      },
+      "mean_delta_hota": 0.9403997324751383,
+      "mean_on_hota": 63.79332426023802,
+      "min_detector_delta_hota": 0.19645786311903368
+    },
+    {
+      "candidate_id": "g0486_no_maturity_d2.716_o0.0221_u5_a10_full",
+      "gate": {
+        "family": "no_maturity",
+        "mahalanobis_threshold": 24.252,
+        "max_distance": 2.716,
+        "min_age": 10,
+        "min_iou": 0.0221,
+        "min_updates": 5
+      },
+      "mean_delta_hota": 0.9382244070489021,
+      "mean_on_hota": 63.79114893481178,
+      "min_detector_delta_hota": 0.2013274137044858
+    },
+    {
+      "candidate_id": "g0284_distance_only_d3.069_o0.1917_u2_a2_full",
+      "gate": {
+        "family": "distance_only",
+        "mahalanobis_threshold": 16.384,
+        "max_distance": 3.069,
+        "min_age": 2,
+        "min_iou": 0.1917,
+        "min_updates": 2
+      },
+      "mean_delta_hota": 0.9311787126504332,
+      "mean_on_hota": 63.78410324041331,
+      "min_detector_delta_hota": 0.3892215343651495
+    },
+    {
+      "candidate_id": "g0588_no_maturity_d3.67_o0.1405_u7_a7_full",
+      "gate": {
+        "family": "no_maturity",
+        "mahalanobis_threshold": 8.735,
+        "max_distance": 3.67,
+        "min_age": 7,
+        "min_iou": 0.1405,
+        "min_updates": 7
+      },
+      "mean_delta_hota": 0.9141530863264066,
+      "mean_on_hota": 63.767077614089295,
+      "min_detector_delta_hota": 0.3022500072415779
+    }
+  ]
+}

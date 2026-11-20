@@ -1,0 +1,741 @@
+{
+  "dev_baseline": {
+    "mean": 60.156510762631264,
+    "per_detector": {
+      "casa": {
+        "AssA": 66.35242414221086,
+        "FP_FN": 2155,
+        "HOTA": 64.45275087843295,
+        "IDSW": 105
+      },
+      "point-rcnn": {
+        "AssA": 53.70029133663371,
+        "FP_FN": 3523,
+        "HOTA": 53.420394753053806,
+        "IDSW": 224
+      },
+      "pvrcnn": {
+        "AssA": 58.12506438420313,
+        "FP_FN": 3199,
+        "HOTA": 56.32672869288993,
+        "IDSW": 137
+      },
+      "second-iou": {
+        "AssA": 63.164613077770724,
+        "FP_FN": 2784,
+        "HOTA": 60.57168172617764,
+        "IDSW": 119
+      },
+      "virconv": {
+        "AssA": 67.13406194472867,
+        "FP_FN": 2234,
+        "HOTA": 66.01099776260199,
+        "IDSW": 56
+      }
+    }
+  },
+  "families": {
+    "heading": {
+      "guard_passed_any": false,
+      "ranking": [
+        {
+          "family": "heading",
+          "guard_pass": false,
+          "mean_equal_sequence_AssA": 62.14764249437089,
+          "mean_equal_sequence_HOTA": 60.262552862761915,
+          "name": "heading_30p0",
+          "per_detector_HOTA": {
+            "casa": 63.58846159711872,
+            "point-rcnn": 56.51974666347839,
+            "pvrcnn": 57.26551173657916,
+            "second-iou": 59.77148420538741,
+            "virconv": 64.1675601112459
+          },
+          "per_detector_delta_vs_no_gate": {
+            "casa": -0.8642892813142282,
+            "point-rcnn": 3.0993519104245806,
+            "pvrcnn": 0.9387830436892273,
+            "second-iou": -0.8001975207902277,
+            "virconv": -1.8434376513560835
+          },
+          "total_FP_FN": 14298,
+          "total_IDSW": 1220,
+          "value": 30.0
+        },
+        {
+          "family": "heading",
+          "guard_pass": false,
+          "mean_equal_sequence_AssA": 62.043976587788414,
+          "mean_equal_sequence_HOTA": 60.165051950766454,
+          "name": "heading_45p0",
+          "per_detector_HOTA": {
+            "casa": 63.575159792482374,
+            "point-rcnn": 56.24559364401661,
+            "pvrcnn": 57.13619601336839,
+            "second-iou": 59.747874739742585,
+            "virconv": 64.12043556422232
+          },
+          "per_detector_delta_vs_no_gate": {
+            "casa": -0.8775910859505771,
+            "point-rcnn": 2.8251988909628025,
+            "pvrcnn": 0.8094673204784613,
+            "second-iou": -0.8238069864350521,
+            "virconv": -1.8905621983796692
+          },
+          "total_FP_FN": 14378,
+          "total_IDSW": 1225,
+          "value": 45.0
+        },
+        {
+          "family": "heading",
+          "guard_pass": false,
+          "mean_equal_sequence_AssA": 61.901461584299774,
+          "mean_equal_sequence_HOTA": 60.07587942377427,
+          "name": "heading_60p0",
+          "per_detector_HOTA": {
+            "casa": 63.49951885649045,
+            "point-rcnn": 56.09802392958989,
+            "pvrcnn": 57.00068496326924,
+            "second-iou": 59.6886674327274,
+            "virconv": 64.09250193679435
+          },
+          "per_detector_delta_vs_no_gate": {
+            "casa": -0.9532320219425046,
+            "point-rcnn": 2.6776291765360867,
+            "pvrcnn": 0.6739562703793069,
+            "second-iou": -0.8830142934502376,
+            "virconv": -1.9184958258076392
+          },
+          "total_FP_FN": 14398,
+          "total_IDSW": 1246,
+          "value": 60.0
+        },
+        {
+          "family": "heading",
+          "guard_pass": false,
+          "mean_equal_sequence_AssA": 61.526121007648406,
+          "mean_equal_sequence_HOTA": 59.94742194243331,
+          "name": "heading_15p0",
+          "per_detector_HOTA": {
+            "casa": 63.544264895513976,
+            "point-rcnn": 56.2139967781205,
+            "pvrcnn": 56.75148716866373,
+            "second-iou": 59.262485462919216,
+            "virconv": 63.96487540694914
+          },
+          "per_detector_delta_vs_no_gate": {
+            "casa": -0.9084859829189753,
+            "point-rcnn": 2.793602025066697,
+            "pvrcnn": 0.42475847577379966,
+            "second-iou": -1.3091962632584213,
+            "virconv": -2.046122355652848
+          },
+          "total_FP_FN": 14345,
+          "total_IDSW": 1306,
+          "value": 15.0
+        },
+        {
+          "family": "heading",
+          "guard_pass": false,
+          "mean_equal_sequence_AssA": 61.741551798969155,
+          "mean_equal_sequence_HOTA": 59.932863847051365,
+          "name": "heading_90p0",
+          "per_detector_HOTA": {
+            "casa": 63.504579848652504,
+            "point-rcnn": 55.42123687334143,
+            "pvrcnn": 57.082877202912925,
+            "second-iou": 59.59290829956051,
+            "virconv": 64.06271701078941
+          },
+          "per_detector_delta_vs_no_gate": {
+            "casa": -0.9481710297804469,
+            "point-rcnn": 2.000842120287622,
+            "pvrcnn": 0.7561485100229959,
+            "second-iou": -0.9787734266171242,
+            "virconv": -1.9482807518125753
+          },
+          "total_FP_FN": 14498,
+          "total_IDSW": 1230,
+          "value": 90.0
+        }
+      ],
+      "selected": {
+        "family": "heading",
+        "guard_pass": false,
+        "mean_equal_sequence_AssA": 62.14764249437089,
+        "mean_equal_sequence_HOTA": 60.262552862761915,
+        "name": "heading_30p0",
+        "per_detector_HOTA": {
+          "casa": 63.58846159711872,
+          "point-rcnn": 56.51974666347839,
+          "pvrcnn": 57.26551173657916,
+          "second-iou": 59.77148420538741,
+          "virconv": 64.1675601112459
+        },
+        "per_detector_delta_vs_no_gate": {
+          "casa": -0.8642892813142282,
+          "point-rcnn": 3.0993519104245806,
+          "pvrcnn": 0.9387830436892273,
+          "second-iou": -0.8001975207902277,
+          "virconv": -1.8434376513560835
+        },
+        "total_FP_FN": 14298,
+        "total_IDSW": 1220,
+        "value": 30.0
+      },
+      "status": "completed"
+    },
+    "heading_fold": {
+      "guard_passed_any": true,
+      "ranking": [
+        {
+          "family": "heading_fold",
+          "guard_pass": true,
+          "mean_equal_sequence_AssA": 62.09315342388135,
+          "mean_equal_sequence_HOTA": 60.44660916193745,
+          "name": "heading_fold_30p0",
+          "per_detector_HOTA": {
+            "casa": 64.56920824176925,
+            "point-rcnn": 54.136308514562266,
+            "pvrcnn": 56.99423986549545,
+            "second-iou": 60.605090894547025,
+            "virconv": 65.92819829331324
+          },
+          "per_detector_delta_vs_no_gate": {
+            "casa": 0.11645736333629486,
+            "point-rcnn": 0.7159137615084603,
+            "pvrcnn": 0.6675111726055221,
+            "second-iou": 0.03340916836938845,
+            "virconv": -0.08279946928874438
+          },
+          "total_FP_FN": 13734,
+          "total_IDSW": 636,
+          "value": 30.0
+        },
+        {
+          "family": "heading_fold",
+          "guard_pass": true,
+          "mean_equal_sequence_AssA": 61.804662546367034,
+          "mean_equal_sequence_HOTA": 60.27687410054185,
+          "name": "heading_fold_45p0",
+          "per_detector_HOTA": {
+            "casa": 64.55931495907416,
+            "point-rcnn": 53.690752854336225,
+            "pvrcnn": 57.13569900980525,
+            "second-iou": 60.476024697443584,
+            "virconv": 65.52257898205002
+          },
+          "per_detector_delta_vs_no_gate": {
+            "casa": 0.10656408064120626,
+            "point-rcnn": 0.2703581012824188,
+            "pvrcnn": 0.8089703169153211,
+            "second-iou": -0.09565702873405257,
+            "virconv": -0.4884187805519673
+          },
+          "total_FP_FN": 13768,
+          "total_IDSW": 634,
+          "value": 45.0
+        },
+        {
+          "family": "heading_fold",
+          "guard_pass": true,
+          "mean_equal_sequence_AssA": 61.696211764466895,
+          "mean_equal_sequence_HOTA": 60.21412069916373,
+          "name": "heading_fold_60p0",
+          "per_detector_HOTA": {
+            "casa": 64.30744543767521,
+            "point-rcnn": 54.15631188174862,
+            "pvrcnn": 56.36322670873171,
+            "second-iou": 60.41789441490161,
+            "virconv": 65.82572505276147
+          },
+          "per_detector_delta_vs_no_gate": {
+            "casa": -0.14530544075773832,
+            "point-rcnn": 0.7359171286948154,
+            "pvrcnn": 0.03649801584177936,
+            "second-iou": -0.15378731127602663,
+            "virconv": -0.18527270984051825
+          },
+          "total_FP_FN": 13787,
+          "total_IDSW": 635,
+          "value": 60.0
+        },
+        {
+          "family": "heading_fold",
+          "guard_pass": false,
+          "mean_equal_sequence_AssA": 61.547964404060735,
+          "mean_equal_sequence_HOTA": 60.195187584220754,
+          "name": "heading_fold_15p0",
+          "per_detector_HOTA": {
+            "casa": 64.23929379159813,
+            "point-rcnn": 54.84959140669338,
+            "pvrcnn": 57.082268538198775,
+            "second-iou": 59.5217600113527,
+            "virconv": 65.28302417326078
+          },
+          "per_detector_delta_vs_no_gate": {
+            "casa": -0.213457086834822,
+            "point-rcnn": 1.429196653639572,
+            "pvrcnn": 0.7555398453088458,
+            "second-iou": -1.04992171482494,
+            "virconv": -0.7279735893412038
+          },
+          "total_FP_FN": 13759,
+          "total_IDSW": 714,
+          "value": 15.0
+        },
+        {
+          "family": "heading_fold",
+          "guard_pass": true,
+          "mean_equal_sequence_AssA": 61.69529097710942,
+          "mean_equal_sequence_HOTA": 60.156510762631264,
+          "name": "heading_fold_90p0",
+          "per_detector_HOTA": {
+            "casa": 64.45275087843295,
+            "point-rcnn": 53.420394753053806,
+            "pvrcnn": 56.32672869288993,
+            "second-iou": 60.57168172617764,
+            "virconv": 66.01099776260199
+          },
+          "per_detector_delta_vs_no_gate": {
+            "casa": 0.0,
+            "point-rcnn": 0.0,
+            "pvrcnn": 0.0,
+            "second-iou": 0.0,
+            "virconv": 0.0
+          },
+          "total_FP_FN": 13895,
+          "total_IDSW": 641,
+          "value": 90.0
+        }
+      ],
+      "selected": {
+        "family": "heading_fold",
+        "guard_pass": true,
+        "mean_equal_sequence_AssA": 62.09315342388135,
+        "mean_equal_sequence_HOTA": 60.44660916193745,
+        "name": "heading_fold_30p0",
+        "per_detector_HOTA": {
+          "casa": 64.56920824176925,
+          "point-rcnn": 54.136308514562266,
+          "pvrcnn": 56.99423986549545,
+          "second-iou": 60.605090894547025,
+          "virconv": 65.92819829331324
+        },
+        "per_detector_delta_vs_no_gate": {
+          "casa": 0.11645736333629486,
+          "point-rcnn": 0.7159137615084603,
+          "pvrcnn": 0.6675111726055221,
+          "second-iou": 0.03340916836938845,
+          "virconv": -0.08279946928874438
+        },
+        "total_FP_FN": 13734,
+        "total_IDSW": 636,
+        "value": 30.0
+      },
+      "status": "completed"
+    },
+    "maha2": {
+      "guard_passed_any": false,
+      "ranking": [
+        {
+          "family": "maha2",
+          "guard_pass": false,
+          "mean_equal_sequence_AssA": 52.99075317745853,
+          "mean_equal_sequence_HOTA": 54.552487777320856,
+          "name": "maha2_9p21",
+          "per_detector_HOTA": {
+            "casa": 58.196502521294676,
+            "point-rcnn": 52.28567878662753,
+            "pvrcnn": 52.83308117304824,
+            "second-iou": 53.65041600924269,
+            "virconv": 55.796760396391164
+          },
+          "per_detector_delta_vs_no_gate": {
+            "casa": -6.256248357138276,
+            "point-rcnn": -1.1347159664262776,
+            "pvrcnn": -3.493647519841687,
+            "second-iou": -6.921265716934947,
+            "virconv": -10.214237366210824
+          },
+          "total_FP_FN": 14218,
+          "total_IDSW": 1825,
+          "value": 9.21
+        },
+        {
+          "family": "maha2",
+          "guard_pass": false,
+          "mean_equal_sequence_AssA": 49.111607445286445,
+          "mean_equal_sequence_HOTA": 51.939821796701835,
+          "name": "maha2_5p99",
+          "per_detector_HOTA": {
+            "casa": 53.573611758618526,
+            "point-rcnn": 50.15289357341295,
+            "pvrcnn": 51.21455180178434,
+            "second-iou": 50.470886790826235,
+            "virconv": 54.28716505886713
+          },
+          "per_detector_delta_vs_no_gate": {
+            "casa": -10.879139119814425,
+            "point-rcnn": -3.2675011796408526,
+            "pvrcnn": -5.112176891105591,
+            "second-iou": -10.100794935351402,
+            "virconv": -11.723832703734857
+          },
+          "total_FP_FN": 15360,
+          "total_IDSW": 3256,
+          "value": 5.99
+        },
+        {
+          "family": "maha2",
+          "guard_pass": false,
+          "mean_equal_sequence_AssA": 48.18943332089885,
+          "mean_equal_sequence_HOTA": 51.124421872691556,
+          "name": "maha2_4p61",
+          "per_detector_HOTA": {
+            "casa": 52.83815875016051,
+            "point-rcnn": 49.647675818936726,
+            "pvrcnn": 50.3115769419972,
+            "second-iou": 49.60021676363907,
+            "virconv": 53.224481088724275
+          },
+          "per_detector_delta_vs_no_gate": {
+            "casa": -11.614592128272442,
+            "point-rcnn": -3.77271893411708,
+            "pvrcnn": -6.015151750892727,
+            "second-iou": -10.971464962538569,
+            "virconv": -12.786516673877713
+          },
+          "total_FP_FN": 15977,
+          "total_IDSW": 3657,
+          "value": 4.61
+        },
+        {
+          "family": "maha2",
+          "guard_pass": false,
+          "mean_equal_sequence_AssA": 44.37801706619122,
+          "mean_equal_sequence_HOTA": 47.41937066651404,
+          "name": "maha2_2p3",
+          "per_detector_HOTA": {
+            "casa": 48.812308444147455,
+            "point-rcnn": 46.08119588011691,
+            "pvrcnn": 46.78229970097675,
+            "second-iou": 46.151946677859186,
+            "virconv": 49.26910262946988
+          },
+          "per_detector_delta_vs_no_gate": {
+            "casa": -15.640442434285497,
+            "point-rcnn": -7.3391988729368975,
+            "pvrcnn": -9.544428991913179,
+            "second-iou": -14.41973504831845,
+            "virconv": -16.74189513313211
+          },
+          "total_FP_FN": 19594,
+          "total_IDSW": 5996,
+          "value": 2.3
+        }
+      ],
+      "selected": {
+        "family": "maha2",
+        "guard_pass": false,
+        "mean_equal_sequence_AssA": 52.99075317745853,
+        "mean_equal_sequence_HOTA": 54.552487777320856,
+        "name": "maha2_9p21",
+        "per_detector_HOTA": {
+          "casa": 58.196502521294676,
+          "point-rcnn": 52.28567878662753,
+          "pvrcnn": 52.83308117304824,
+          "second-iou": 53.65041600924269,
+          "virconv": 55.796760396391164
+        },
+        "per_detector_delta_vs_no_gate": {
+          "casa": -6.256248357138276,
+          "point-rcnn": -1.1347159664262776,
+          "pvrcnn": -3.493647519841687,
+          "second-iou": -6.921265716934947,
+          "virconv": -10.214237366210824
+        },
+        "total_FP_FN": 14218,
+        "total_IDSW": 1825,
+        "value": 9.21
+      },
+      "status": "completed"
+    },
+    "relcost": {
+      "guard_passed_any": true,
+      "ranking": [
+        {
+          "family": "relcost",
+          "guard_pass": true,
+          "mean_equal_sequence_AssA": 64.50742841560647,
+          "mean_equal_sequence_HOTA": 61.78957003899448,
+          "name": "relcost_1p5",
+          "per_detector_HOTA": {
+            "casa": 64.89714494317366,
+            "point-rcnn": 56.656786710588634,
+            "pvrcnn": 59.08388817460934,
+            "second-iou": 61.55965804172982,
+            "virconv": 66.750372324871
+          },
+          "per_detector_delta_vs_no_gate": {
+            "casa": 0.4443940647407061,
+            "point-rcnn": 3.2363919575348277,
+            "pvrcnn": 2.7571594817194125,
+            "second-iou": 0.9879763155521815,
+            "virconv": 0.7393745622690062
+          },
+          "total_FP_FN": 13491,
+          "total_IDSW": 363,
+          "value": 1.5
+        },
+        {
+          "family": "relcost",
+          "guard_pass": true,
+          "mean_equal_sequence_AssA": 64.4969465699244,
+          "mean_equal_sequence_HOTA": 61.73186185384414,
+          "name": "relcost_2p0",
+          "per_detector_HOTA": {
+            "casa": 64.82263731835653,
+            "point-rcnn": 56.55654482321056,
+            "pvrcnn": 59.63726353781421,
+            "second-iou": 61.19191985137852,
+            "virconv": 66.45094373846088
+          },
+          "per_detector_delta_vs_no_gate": {
+            "casa": 0.36988643992357595,
+            "point-rcnn": 3.136150070156752,
+            "pvrcnn": 3.310534844924284,
+            "second-iou": 0.6202381252008848,
+            "virconv": 0.4399459758588904
+          },
+          "total_FP_FN": 13606,
+          "total_IDSW": 409,
+          "value": 2.0
+        },
+        {
+          "family": "relcost",
+          "guard_pass": true,
+          "mean_equal_sequence_AssA": 62.72031038524724,
+          "mean_equal_sequence_HOTA": 60.76364841098547,
+          "name": "relcost_3p0",
+          "per_detector_HOTA": {
+            "casa": 64.51901302157867,
+            "point-rcnn": 54.74558660695483,
+            "pvrcnn": 57.436246932539994,
+            "second-iou": 60.94691790374042,
+            "virconv": 66.17047759011342
+          },
+          "per_detector_delta_vs_no_gate": {
+            "casa": 0.0662621431457211,
+            "point-rcnn": 1.3251918539010248,
+            "pvrcnn": 1.1095182396500647,
+            "second-iou": 0.37523617756278327,
+            "virconv": 0.15947982751143286
+          },
+          "total_FP_FN": 13711,
+          "total_IDSW": 505,
+          "value": 3.0
+        },
+        {
+          "family": "relcost",
+          "guard_pass": true,
+          "mean_equal_sequence_AssA": 62.13172491817197,
+          "mean_equal_sequence_HOTA": 60.391795382776046,
+          "name": "relcost_5p0",
+          "per_detector_HOTA": {
+            "casa": 64.48147293611464,
+            "point-rcnn": 53.93167484635156,
+            "pvrcnn": 56.84429689984677,
+            "second-iou": 60.69073496807136,
+            "virconv": 66.01079726349592
+          },
+          "per_detector_delta_vs_no_gate": {
+            "casa": 0.02872205768169067,
+            "point-rcnn": 0.5112800932977564,
+            "pvrcnn": 0.5175682069568381,
+            "second-iou": 0.1190532418937238,
+            "virconv": -0.00020049910607156107
+          },
+          "total_FP_FN": 13921,
+          "total_IDSW": 615,
+          "value": 5.0
+        }
+      ],
+      "selected": {
+        "family": "relcost",
+        "guard_pass": true,
+        "mean_equal_sequence_AssA": 64.50742841560647,
+        "mean_equal_sequence_HOTA": 61.78957003899448,
+        "name": "relcost_1p5",
+        "per_detector_HOTA": {
+          "casa": 64.89714494317366,
+          "point-rcnn": 56.656786710588634,
+          "pvrcnn": 59.08388817460934,
+          "second-iou": 61.55965804172982,
+          "virconv": 66.750372324871
+        },
+        "per_detector_delta_vs_no_gate": {
+          "casa": 0.4443940647407061,
+          "point-rcnn": 3.2363919575348277,
+          "pvrcnn": 2.7571594817194125,
+          "second-iou": 0.9879763155521815,
+          "virconv": 0.7393745622690062
+        },
+        "total_FP_FN": 13491,
+        "total_IDSW": 363,
+        "value": 1.5
+      },
+      "status": "completed"
+    },
+    "scale_distance": {
+      "guard_passed_any": true,
+      "ranking": [
+        {
+          "family": "scale_distance",
+          "guard_pass": true,
+          "mean_equal_sequence_AssA": 67.642450793596,
+          "mean_equal_sequence_HOTA": 63.751002307991065,
+          "name": "scale_distance_1p0",
+          "per_detector_HOTA": {
+            "casa": 65.65600291221581,
+            "point-rcnn": 61.234401028666284,
+            "pvrcnn": 62.44052507592133,
+            "second-iou": 62.102753782321486,
+            "virconv": 67.3213287408304
+          },
+          "per_detector_delta_vs_no_gate": {
+            "casa": 1.20325203378286,
+            "point-rcnn": 7.814006275612478,
+            "pvrcnn": 6.113796383031399,
+            "second-iou": 1.5310720561438487,
+            "virconv": 1.3103309782284072
+          },
+          "total_FP_FN": 12752,
+          "total_IDSW": 235,
+          "value": 1.0
+        },
+        {
+          "family": "scale_distance",
+          "guard_pass": true,
+          "mean_equal_sequence_AssA": 67.65217193230875,
+          "mean_equal_sequence_HOTA": 63.6722075260804,
+          "name": "scale_distance_1p5",
+          "per_detector_HOTA": {
+            "casa": 65.82767915816018,
+            "point-rcnn": 60.97043897761212,
+            "pvrcnn": 62.17288898382896,
+            "second-iou": 61.97418958488821,
+            "virconv": 67.4158409259125
+          },
+          "per_detector_delta_vs_no_gate": {
+            "casa": 1.3749282797272286,
+            "point-rcnn": 7.550044224558313,
+            "pvrcnn": 5.846160290939032,
+            "second-iou": 1.402507858710571,
+            "virconv": 1.4048431633105167
+          },
+          "total_FP_FN": 12854,
+          "total_IDSW": 242,
+          "value": 1.5
+        },
+        {
+          "family": "scale_distance",
+          "guard_pass": true,
+          "mean_equal_sequence_AssA": 67.15084292303177,
+          "mean_equal_sequence_HOTA": 63.34668847228536,
+          "name": "scale_distance_2p0",
+          "per_detector_HOTA": {
+            "casa": 65.31154032564962,
+            "point-rcnn": 60.8432592851171,
+            "pvrcnn": 61.42325704139943,
+            "second-iou": 61.90559227312097,
+            "virconv": 67.24979343613967
+          },
+          "per_detector_delta_vs_no_gate": {
+            "casa": 0.8587894472166653,
+            "point-rcnn": 7.4228645320632936,
+            "pvrcnn": 5.096528348509501,
+            "second-iou": 1.3339105469433363,
+            "virconv": 1.2387956735376804
+          },
+          "total_FP_FN": 12956,
+          "total_IDSW": 258,
+          "value": 2.0
+        },
+        {
+          "family": "scale_distance",
+          "guard_pass": true,
+          "mean_equal_sequence_AssA": 65.81934486255368,
+          "mean_equal_sequence_HOTA": 62.60379107713443,
+          "name": "scale_distance_3p0",
+          "per_detector_HOTA": {
+            "casa": 64.84235195741086,
+            "point-rcnn": 59.48853979022089,
+            "pvrcnn": 60.73537334843286,
+            "second-iou": 61.54779395446923,
+            "virconv": 66.40489633513835
+          },
+          "per_detector_delta_vs_no_gate": {
+            "casa": 0.3896010789779041,
+            "point-rcnn": 6.068145037167085,
+            "pvrcnn": 4.408644655542929,
+            "second-iou": 0.9761122282915906,
+            "virconv": 0.39389857253635796
+          },
+          "total_FP_FN": 13120,
+          "total_IDSW": 344,
+          "value": 3.0
+        },
+        {
+          "family": "scale_distance",
+          "guard_pass": false,
+          "mean_equal_sequence_AssA": 57.382568938828044,
+          "mean_equal_sequence_HOTA": 56.395259237732276,
+          "name": "scale_distance_0p5",
+          "per_detector_HOTA": {
+            "casa": 57.935864393334505,
+            "point-rcnn": 54.53264848533257,
+            "pvrcnn": 55.27101248735259,
+            "second-iou": 54.73802800816242,
+            "virconv": 59.498742814479286
+          },
+          "per_detector_delta_vs_no_gate": {
+            "casa": -6.516886485098446,
+            "point-rcnn": 1.1122537322787664,
+            "pvrcnn": -1.0557162055373368,
+            "second-iou": -5.8336537180152135,
+            "virconv": -6.512254948122703
+          },
+          "total_FP_FN": 14570,
+          "total_IDSW": 1742,
+          "value": 0.5
+        }
+      ],
+      "selected": {
+        "family": "scale_distance",
+        "guard_pass": true,
+        "mean_equal_sequence_AssA": 67.642450793596,
+        "mean_equal_sequence_HOTA": 63.751002307991065,
+        "name": "scale_distance_1p0",
+        "per_detector_HOTA": {
+          "casa": 65.65600291221581,
+          "point-rcnn": 61.234401028666284,
+          "pvrcnn": 62.44052507592133,
+          "second-iou": 62.102753782321486,
+          "virconv": 67.3213287408304
+        },
+        "per_detector_delta_vs_no_gate": {
+          "casa": 1.20325203378286,
+          "point-rcnn": 7.814006275612478,
+          "pvrcnn": 6.113796383031399,
+          "second-iou": 1.5310720561438487,
+          "virconv": 1.3103309782284072
+        },
+        "total_FP_FN": 12752,
+        "total_IDSW": 235,
+        "value": 1.0
+      },
+      "status": "completed"
+    }
+  }
+}
